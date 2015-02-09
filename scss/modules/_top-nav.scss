@@ -8,7 +8,7 @@
 
     $centered-navigation-padding: 0.8em;
     $centered-navigation-logo-height: 60px;
-    $centered-navigation-background: #f1e1a1;
+    $centered-navigation-background: #4cc2f1;
     $centered-navigation-color: transparentize($base-font-color, 0.3);
     $centered-navigation-color-hover: $base-font-color;
     $centered-navigation-height: 60px;
@@ -20,8 +20,11 @@
 
     $texture-top-background: lighten(#ddf0ef, 1%);
     $texture-bottom-background: darken(#ddf0ef, 10%);
-    background-color: $centered-navigation-background;
-    @include texture(180deg, $texture-top-background, $texture-bottom-background, 67, 1);
+
+   background-color: $centered-navigation-background;
+
+    @include texture(180deg, $texture-top-background, $texture-bottom-background, 67, 0);
+
     border-bottom: 1px solid darken($centered-navigation-background, 6%);
     min-height: $centered-navigation-height;
     width: 100%;
