@@ -1,0 +1,60 @@
+.hero {
+  ///////////////////////////////////////////////////////////////////////////////////
+  $base-border-radius: 3px !default;
+  $base-accent-color: #477DCA !default;
+  $large-screen: em(860) !default;
+  //////////////////////////////////////////////////////////////////////////////////
+
+  $hero-color: white;
+  $hero-image: '';
+
+  @include background-image(linear-gradient(transparentize(#1e5799,0.5), transparentize(#2989d8,0.3) ), url("../img/header.jpg"));
+  background-size: cover;
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+
+  .hero-logo img {
+    height: 4em;
+    margin-bottom: 1em;
+  }
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    color: $hero-color;
+    margin: auto;
+    padding: 1.5em;
+    text-align: center;
+
+    .hero-copy {
+      text-align: center;
+
+      h1 {
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+
+        @include media($large-screen) {
+          font-size: 1.8em;
+        }
+      }
+
+      p {
+        font-weight: 200;
+        line-height: 1.4em;
+        margin: 0 auto 2em auto;
+
+        @include media($large-screen) {
+          font-size: 1.1em;
+          max-width: 80%;
+        }
+      }
+    }
+
+    button {
+      @include button(flat, $base-accent-color);
+      padding: 0.7em 1em;
+    }
+  }
+}

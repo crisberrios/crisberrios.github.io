@@ -2,3 +2,8 @@
 @import 'boilerplate/normalize';
 @import 'plugins/plugins-dir';
 @import 'modules/modules-dir';
+
+//layout
+main {
+  @include outer-container(100%);
+}

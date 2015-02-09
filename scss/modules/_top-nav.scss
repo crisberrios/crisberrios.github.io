@@ -3,12 +3,13 @@
     $base-border-radius: 3px !default;
     $dark-gray: #333 !default;
     $large-screen: em(860) !default;
+    $mobile-screen: em(480) !default;
     $base-font-color: $dark-gray !default;
     //////////////////////////////////////////////////////////////////////////////////
 
     $centered-navigation-padding: 0.8em;
     $centered-navigation-logo-height: 60px;
-    $centered-navigation-background: #4cc2f1;
+    $centered-navigation-background: #ecf15c;
     $centered-navigation-color: transparentize($base-font-color, 0.3);
     $centered-navigation-color-hover: $base-font-color;
     $centered-navigation-height: 60px;
@@ -18,14 +19,15 @@
     $centered-navigation-item-nudge: 2.2em;
     $horizontal-bar-mode: $large-screen;
 
-    $texture-top-background: lighten(#ddf0ef, 1%);
-    $texture-bottom-background: darken(#ddf0ef, 10%);
+    $texture-top-background: lighten(#fff5a3, 1%);
+    $texture-bottom-background: darken(#fff5a3, 10%);
+    $texture-number : 3;
 
    background-color: $centered-navigation-background;
 
-    @include texture(180deg, $texture-top-background, $texture-bottom-background, 67, 0);
+    @include texture(180deg, $texture-top-background, $texture-bottom-background, $texture-number, 0);
 
-    border-bottom: 1px solid darken($centered-navigation-background, 6%);
+    border-bottom: 2px solid darken($centered-navigation-background, 6%);
     min-height: $centered-navigation-height;
     width: 100%;
     z-index: 9999;
@@ -139,8 +141,13 @@
             }
         }
     }
-    .logo {
+    .logo, .nav-logo, {
         display: inline-block;
+    }
+    .nav-link .logo {
+        @include media(max-width 860px) {
+            display:none;
+        }
     }
 
     // Sub menus
