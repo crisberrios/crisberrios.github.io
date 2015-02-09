@@ -18,7 +18,10 @@
     $centered-navigation-item-nudge: 2.2em;
     $horizontal-bar-mode: $large-screen;
 
+    $texture-top-background: lighten(#ddf0ef, 1%);
+    $texture-bottom-background: darken(#ddf0ef, 10%);
     background-color: $centered-navigation-background;
+    @include texture(180deg, $texture-top-background, $texture-bottom-background, 67, 1);
     border-bottom: 1px solid darken($centered-navigation-background, 6%);
     min-height: $centered-navigation-height;
     width: 100%;
