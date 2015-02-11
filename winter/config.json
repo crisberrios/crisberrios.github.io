@@ -1,7 +1,7 @@
 {
   "output": "../",
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "http://crisberrios.github.io",
     "name": "Coding From Afar",
     "owner": "Cristián Berríos",
     "description": "My journey into becoming a full-stack web developer"

@@ -1,10 +1,24 @@
 extends layout
 include author
 block content
+  .hero
+    .hero-inner
+      .hero-copy
+        h1 Coding from Afar
+        p
+          | Welcome to my coding-related (and only) personal website. I'm Cristián, and along with my wife we decided to leave our country in search of new adventures.
+        p
+          | Currently, we live in Mexico City, and a mix of factors including low salaries and painfully long distances, led me to the decision of switching careers and becoming a full-time software engineer
+
   .scroll-on-page
     aside#scroll-on-page-top
       each article, index in articles
         a.scroll-on-page-link(href='#scroll-link-'+index)= article.title
+      div.nav
+        if prevPage
+          a(href=prevPage.url) « Newer
+        if nextPage
+          a(href=nextPage.url) Older »
     section.main
       each article, index in articles
         article
@@ -18,16 +32,9 @@ block content
               | !{ typogr(article.intro).typogrify() }
             if article.hasMore
               p.more
-                a(href=article.url) more
+                a(href=article.url) Continue Reading »
 
-block prepend footer
-  div.nav
-    if prevPage
-      a(href=prevPage.url) « Newer
-    else
-      a(href='/archive.html') « Archives
-    if nextPage
-      a(href=nextPage.url) Next page »
+
 
 
 

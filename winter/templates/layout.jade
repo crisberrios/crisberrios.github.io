@@ -11,9 +11,9 @@ html.no-js(lang='en')
       meta(name='description', content='')
       meta(name='viewport', content='width=device-width, initial-scale=1')
       link(rel='apple-touch-icon', href='apple-touch-icon.png')
-      link(rel='stylesheet', href='css/app.css')
+      link(rel='stylesheet', href='/css/app.css')
       link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
-      script(src='js/vendor/modernizr-2.8.3.min.js')
+      script(src='/js/vendor/modernizr-2.8.3.min.js')
    body(class=bodyclass)
       //if lt IE 8
         p.browserupgrade
@@ -24,7 +24,7 @@ html.no-js(lang='en')
           |  to improve your experience.
       header.centered-navigation(role='banner')
          .centered-navigation-wrapper
-            a.mobile-logo(href='./')
+            a.mobile-logo(href='/')
                .m-logo
                   span.myname CB
             a#js-centered-navigation-mobile-menu.centered-navigation-mobile-menu(href='javascript:void(0)') MENU
@@ -33,23 +33,17 @@ html.no-js(lang='en')
                   li.nav-link
                      a(href='javascript:void(0)') About Me
                   li.nav-link.logo
-                     a.logo(href='./')
+                     a.logo(href='/')
                         .nav-logo
                            span.myname CB
                   li.nav-link
                      a(href='javascript:void(0)') Contact
       main
-         .hero
-            .hero-inner
-               .hero-copy
-                  h1 Coding from Afar
-                  p
-                     | Welcome to my coding-related (and only) personal website. I'm Cristián, and along with my wife we decided to leave our country in search of new adventures.
-                  p
-                     | Currently, we live in Mexico City, and a mix of factors including low salaries and painfully long distances, led me to the decision of switching careers and becoming a full-time software engineer
          section#content
             .content-wrap
                block content
+
+            block prepend footer
       footer.footer(role='contentinfo')
          .footer-logo
             img(src='https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png', alt='Logo image')
@@ -58,11 +52,11 @@ html.no-js(lang='en')
                li
                   h3 Content
                li
-                  a(href='javascript:void(0)') About Me
-               li
-                  a(href='javascript:void(0)') Contact
+                  a(href='/archive.html') Archives
                li
                   a(href='javascript:void(0)') Portfolio
+               li
+                  a(href='javascript:void(0)') About Me
             ul
                li
                   h3 Follow Me
