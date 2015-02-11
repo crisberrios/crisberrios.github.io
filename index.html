@@ -1,121 +1,124 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Coding from Afar - My Journey to Becoming a Web-Dev Far Away from Home.</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coding From Afar
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="My journey into becoming a full-stack web developer">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body>
+    <!--if lt IE 8
+    p.browserupgrade
+      | You are using an
+      strong outdated
+      |  browser. Please
+      a(href='http://browsehappy.com/') upgrade your browser
+      |  to improve your experience.
+    -->
+    <header role="banner" class="centered-navigation">
+      <div class="centered-navigation-wrapper"><a href="./" class="mobile-logo">
+          <div class="m-logo"><span class="myname">CB</span></div></a><a id="js-centered-navigation-mobile-menu" href="javascript:void(0)" class="centered-navigation-mobile-menu">MENU</a>
+        <nav role="navigation">
+          <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+            <li class="nav-link"><a href="javascript:void(0)">About Me</a></li>
+            <li class="nav-link logo"><a href="./" class="logo">
+                <div class="nav-logo"><span class="myname">CB</span></div></a></li>
+            <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1>Coding from Afar</h1>
+            <p>Welcome to my coding-related (and only) personal website. I'm Cristián, and along with my wife we decided to leave our country in search of new adventures.</p>
+            <p>Currently, we live in Mexico City, and a mix of factors including low salaries and painfully long distances, led me to the decision of switching careers and becoming a full-time software engineer</p>
+          </div>
+        </div>
+      </div>
+      <section id="content">
+        <div class="content-wrap">
+          <div class="scroll-on-page">
+            <aside id="scroll-on-page-top"><a href="#scroll-link-0" class="scroll-on-page-link">README</a><a href="#scroll-link-1" class="scroll-on-page-link">A red herring</a><a href="#scroll-link-2" class="scroll-on-page-link">Code and stuff!</a>
+            </aside>
+            <section class="main">
+              <article>
+                <header>
+                  <p class="date"><span>30. April 2013</span></p>
+                  <h2 id="scroll-link-0"><a href="/articles/hello-world/">README</a></h2>
+                </header>
+                <section><p>Welcome to your new blog! This is the default blog template with <span class="caps">RSS</span>, pagination and an archive. There are other templates available — run <code>wintersmith new --help</code> to list&nbsp;them.</p>
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/app.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <header class="centered-navigation" role="banner">
-            <div class="centered-navigation-wrapper">
-                <a href="../../" class="mobile-logo">
-                    <div class="m-logo"><span class="myname">CB</span></div>
-                </a>
-                <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
-                <nav role="navigation">
-                    <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
-                        <li class="nav-link"><a href="javascript:void(0)">About Me</a></li>
-                        <li class="nav-link logo">
-                            <a href="../../" class="logo">
-                               <div class="nav-logo"><span class="myname">CB</span></div>
-                            </a>
-                        </li>
-                        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <div class="hero">
-                <div class="hero-inner">
-                    <div class="hero-copy">
-                        <h1>Coding from Afar</h1>
-                        <p>Welcome to my coding-related (and only) personal website. I'm Cristián, and along with my wife we decided to leave our country in search of new adventures.</p>
-                        <p>Currently, we live in Mexico City, and a mix of factors including low salaries and painfully long distances, led me to the decision of switching careers and becoming a full-time software engineer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-items">
-                <a href="javascript:void(0)" class="grid-item">
-                    <h1>No Image</h1>
-                    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-                </a>
-                <a href="javascript:void(0)" class="grid-item grid-item-big grid-item-image">
-                    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="">
-                    <h1>Grid Item With an Image</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, illum.</p>
-                </a>
-                <a href="javascript:void(0)" class="grid-item grid-item-big">
-                    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
-                    <h1>Another Wide Item</h1>
-                    <p>Lorem ipsum consectetur dolor sit amet, consectetur adipisicing elit. Rem, illum.</p>
-                </a>
-                <a href="javascript:void(0)" class="grid-item">
-                    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="">
-                    <h1>Last Grid Item</h1>
-                    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-                </a>
-                <a href="javascript:void(0)" class="grid-item">
-                    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="">
-                    <h1>Last Grid Item</h1>
-                    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-                </a>
-                <a href="javascript:void(0)" class="grid-item">
-                    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
-                    <h1>A Grid Item</h1>
-                    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-                </a>
-                <a href="javascript:void(0)" class="grid-item">
-                    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
-                    <h1>Item</h1>
-                    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-                </a>
-            </div>
-        </main>
-            <footer class="footer" role="contentinfo">
-                <div class="footer-logo">
-                    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
-                </div>
-                <div class="footer-links">
-                    <ul>
-                        <li><h3>Content</h3></li>
-                        <li><a href="javascript:void(0)">About Me</a></li>
-                        <li><a href="javascript:void(0)">Contact</a></li>
-                        <li><a href="javascript:void(0)">Portfolio</a></li>
-                    </ul>
-                    <ul>
-                        <li><h3>Follow Me</h3></li>
-                        <li><a href="javascript:void(0)">Git</a></li>
-                        <li><a href="javascript:void(0)">Codepen</a></li>
-                        <li><a href="javascript:void(0)">LinkedIn</a></li>
-                    </ul>
-                    <ul>
-                        <li><h3>Legal</h3></li>
-                        <li><a href="javascript:void(0)">Terms and Conditions</a></li>
-                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                    </ul>
-                </div>
-
-                <hr>
-
-                <p>Feel free to copy anything from this site which doesn't belong to someone else.</p>
-            </footer>
-
-    <!--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-    </body>
+                  <p class="more"><a href="/articles/hello-world/">more</a></p>
+                </section>
+              </article>
+              <article>
+                <header>
+                  <p class="date"><span>01. April 2013</span></p>
+                  <h2 id="scroll-link-1"><a href="/articles/red-herring/">A red herring</a></h2>
+                </header>
+                <section><p>A long time ago, when the world was young — someone put some food on their tongue.
+They tasted the food, and thought it was nice. Most fruit liked it — but banana’s thought&nbsp;twice.</p>
+<p>
+                  <p class="more"><a href="/articles/red-herring/">more</a></p>
+                </section>
+              </article>
+              <article>
+                <header>
+                  <p class="date"><span>01. October 2012</span></p>
+                  <h2 id="scroll-link-2"><a href="/articles/another-test/">Code and stuff!</a></h2>
+                </header>
+                <section><p>Syntax highlighting with <a href="http://softwaremaniacs.org/soft/highlight/en/">highlight.js</a>.
+The theme used is tomorrow, you can find more themes <a href="http://jmblog.github.io/color-themes-for-highlightjs/">here</a>.</p>
+<p>
+                  <p class="more"><a href="/articles/another-test/">more</a></p>
+                </section>
+              </article>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo" class="footer">
+      <div class="footer-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image"></div>
+      <div class="footer-links">
+        <ul>
+          <li>
+            <h3>Content</h3>
+          </li>
+          <li><a href="javascript:void(0)">About Me</a></li>
+          <li><a href="javascript:void(0)">Contact</a></li>
+          <li><a href="javascript:void(0)">Portfolio</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Follow Me</h3>
+          </li>
+          <li><a href="javascript:void(0)">Git</a></li>
+          <li><a href="javascript:void(0)">Codepen</a></li>
+          <li><a href="javascript:void(0)">LinkedIn</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Legal</h3>
+          </li>
+          <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+          <li><a href="javascript:void(0)">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <hr>
+      <p>Feel free to copy anything from this site which doesn't belong to someone else.</p>
+    </footer>
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
