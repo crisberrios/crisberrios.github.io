@@ -1,0 +1,46 @@
+@mixin logoshape($width,$height,$font-size) {
+    @include background-image(linear-gradient(hsla(0, 100%, 100%, 0.25) 0px, hsla(0, 100%, 100%, 0.08) 30px, transparent 50%),
+            linear-gradient(#1cd4d3, darken(#4e7ba4, 10%)));
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    width: $width;
+    height: $height;
+    font-size: $font-size;
+}
+@mixin logoname {
+        width: 100%;
+        display: inline-block;
+        vertical-align: bottom;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+}
+
+.nav-logo {
+   @include logoshape(65px,65px,24px);
+    padding: 0;
+    @include margin(5px null 5px null);
+    @include transition(1s ease-in-out);
+
+    &:hover {
+    @include transform(rotate(360deg));
+        box-shadow: 0 0 3px;
+    }
+    .myname {
+        @include logoname;
+        &:hover {
+            font-size: 1.2em;
+            font-weight: bolder;
+        }
+    }
+
+}
+.m-logo {
+    margin-top: 5px;
+    @include logoshape(50px,50px,20px);
+    .myname {
+        @include logoname;
+        padding-top: 7px;
+    }
+}
+

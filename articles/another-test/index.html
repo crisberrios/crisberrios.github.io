@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Code and stuff! - Coding From Afar
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="My journey into becoming a full-stack web developer">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body class="article-detail">
+    <!--if lt IE 8
+    p.browserupgrade
+      | You are using an
+      strong outdated
+      |  browser. Please
+      a(href='http://browsehappy.com/') upgrade your browser
+      |  to improve your experience.
+    -->
+    <header role="banner" class="centered-navigation">
+      <div class="centered-navigation-wrapper"><a href="./" class="mobile-logo">
+          <div class="m-logo"><span class="myname">CB</span></div></a><a id="js-centered-navigation-mobile-menu" href="javascript:void(0)" class="centered-navigation-mobile-menu">MENU</a>
+        <nav role="navigation">
+          <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+            <li class="nav-link"><a href="javascript:void(0)">About Me</a></li>
+            <li class="nav-link logo"><a href="./" class="logo">
+                <div class="nav-logo"><span class="myname">CB</span></div></a></li>
+            <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1>Coding from Afar</h1>
+            <p>Welcome to my coding-related (and only) personal website. I'm Cristián, and along with my wife we decided to leave our country in search of new adventures.</p>
+            <p>Currently, we live in Mexico City, and a mix of factors including low salaries and painfully long distances, led me to the decision of switching careers and becoming a full-time software engineer</p>
+          </div>
+        </div>
+      </div>
+      <section id="content">
+        <div class="content-wrap">
+          <article class="article">
+            <section class="content"><p>Syntax highlighting with <a href="http://softwaremaniacs.org/soft/highlight/en/">highlight.js</a>.
+The theme used is tomorrow, you can find more themes <a href="http://jmblog.github.io/color-themes-for-highlightjs/">here</a>.</p>
+<p><span class="more"></span></p>
+<h3 id="javascript">JavaScript</h3>
+<pre><code class="lang-javascript"><span class="function"><span class="keyword">function</span> <span class="title">getRandomNumber</span><span class="params">()</span> {</span>
+    <span class="keyword">return</span> <span class="number">4</span>; <span class="comment">// chosen by fair dice roll.</span>
+              <span class="comment">// guaranteed to be random.</span>
+}
+</code></pre>
+<h3 id="coffeescript">CoffeeScript</h3>
+<pre><code class="lang-coffeescript"><span class="class"><span class="keyword">class</span> <span class="title">Animal</span></span>
+  <span class="comment">### Intellegent design ###</span>
+  <span class="attribute">getDNA</span>:<span class="function"> -&gt;</span>
+    <span class="built_in">print</span> <span class="string">'sequencing...'</span>
+    <span class="keyword">while</span> <span class="literal">true</span>
+      sleep <span class="number">1</span>
+
+<span class="class"><span class="keyword">class</span> <span class="title">Monkey</span> <span class="keyword">extends</span> <span class="title">Animal</span></span>
+  <span class="attribute">speak</span>:<span class="function"> -&gt;</span>
+    <span class="built_in">print</span> <span class="string">'ah ah ah'</span>
+
+<span class="class"><span class="keyword">class</span> <span class="title">Human</span> <span class="keyword">extends</span> <span class="title">Monkey</span></span>
+  <span class="attribute">speak</span>:<span class="function"> -&gt;</span>
+    <span class="built_in">print</span> [<span class="string">'yolo'</span> <span class="keyword">unless</span> i % <span class="number">3</span>] + [<span class="string">'swag'</span> <span class="keyword">unless</span> i % <span class="number">5</span>] <span class="keyword">or</span> i <span class="keyword">for</span> i <span class="keyword">in</span> [<span class="number">1.</span><span class="number">.100</span>]
+</code></pre>
+<h3 id="c">C</h3>
+<pre><code class="lang-c"><span class="preprocessor">#include &lt;stdio.h&gt;</span>
+
+<span class="keyword">int</span> main(<span class="keyword">void</span>)
+{
+  <span class="built_in">printf</span>(<span class="string">"Hello world\n"</span>);
+  <span class="keyword">return</span> <span class="number">0</span>;
+}
+</code></pre>
+<h3 id="c-">C++</h3>
+<pre><code class="lang-cpp"><span class="preprocessor">#include &lt;iostream&gt;</span>
+
+<span class="keyword">int</span> main()
+{
+  <span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World!"</span> &lt;&lt; <span class="built_in">std</span>::endl;
+  <span class="keyword">return</span> <span class="number">0</span>;
+}
+</code></pre>
+<h3 id="c-sharp">C-sharp</h3>
+<pre><code class="lang-cs">class ExampleClass
+{
+    <span class="keyword">static</span> <span class="keyword">void</span> Main()
+    {
+        System.Console.WriteLine(<span class="string">"Hello, world!"</span>);
+    }
+}
+</code></pre>
+<h3 id="erlang">Erlang</h3>
+<pre><code class="lang-erlang">io:format(<span class="string">"~s~n"</span>, [<span class="string">"hello, world"</span>])
+</code></pre>
+<h3 id="go">Go</h3>
+<pre><code class="lang-go"><span class="keyword">package</span> main
+
+<span class="keyword">import</span> <span class="string">"fmt"</span>
+
+<span class="keyword">func</span> main() {
+   fmt.Println(<span class="string">"Hello World!"</span>)
+}
+</code></pre>
+<h3 id="java">Java</h3>
+<pre><code class="lang-java"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> {</span>
+   <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span>(String[] args) {
+       System.out.println(<span class="string">"Hello world!"</span>);
+   }
+}
+</code></pre>
+<h3 id="objectivec">ObjectiveC</h3>
+<pre><code class="lang-objectivec"><span class="preprocessor">#import <span class="title">&lt;stdio.h&gt;</span></span>
+
+<span class="keyword">int</span> main(<span class="keyword">void</span>)
+{
+    printf(<span class="string">"Hello, World!\n"</span>);
+    <span class="keyword">return</span> <span class="number">0</span>;
+}
+</code></pre>
+<h3 id="php"><span class="caps">PHP</span></h3>
+<pre><code class="lang-php"><span class="preprocessor">&lt;?php</span> <span class="keyword">echo</span> <span class="string">'Hello, world'</span>; <span class="preprocessor">?&gt;</span>
+</code></pre>
+<h3 id="python">Python</h3>
+<pre><code class="lang-python">print(<span class="string">"Hello World"</span>)
+</code></pre>
+<h3 id="ruby">Ruby</h3>
+<pre><code class="lang-ruby">puts <span class="string">"Hello world!"</span>
+</code></pre>
+</section>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo" class="footer">
+      <div class="footer-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image"></div>
+      <div class="footer-links">
+        <ul>
+          <li>
+            <h3>Content</h3>
+          </li>
+          <li><a href="javascript:void(0)">About Me</a></li>
+          <li><a href="javascript:void(0)">Contact</a></li>
+          <li><a href="javascript:void(0)">Portfolio</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Follow Me</h3>
+          </li>
+          <li><a href="javascript:void(0)">Git</a></li>
+          <li><a href="javascript:void(0)">Codepen</a></li>
+          <li><a href="javascript:void(0)">LinkedIn</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Legal</h3>
+          </li>
+          <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+          <li><a href="javascript:void(0)">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <hr>
+      <p>Feel free to copy anything from this site which doesn't belong to someone else.</p>
+    </footer>
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

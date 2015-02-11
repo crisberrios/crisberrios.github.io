@@ -1,0 +1,87 @@
+doctype html
+block vars
+   - var bodyclass = null;
+html.no-js(lang='en')
+   head
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible', content='IE=edge')
+      title
+        block title
+          = locals.name
+      meta(name='description', content='')
+      meta(name='viewport', content='width=device-width, initial-scale=1')
+      link(rel='apple-touch-icon', href='apple-touch-icon.png')
+      link(rel='stylesheet', href='css/app.css')
+      link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
+      script(src='js/vendor/modernizr-2.8.3.min.js')
+   body(class=bodyclass)
+      //if lt IE 8
+        p.browserupgrade
+          | You are using an
+          strong outdated
+          |  browser. Please
+          a(href='http://browsehappy.com/') upgrade your browser
+          |  to improve your experience.
+      header.centered-navigation(role='banner')
+         .centered-navigation-wrapper
+            a.mobile-logo(href='./')
+               .m-logo
+                  span.myname CB
+            a#js-centered-navigation-mobile-menu.centered-navigation-mobile-menu(href='javascript:void(0)') MENU
+            nav(role='navigation')
+               ul#js-centered-navigation-menu.centered-navigation-menu.show
+                  li.nav-link
+                     a(href='javascript:void(0)') About Me
+                  li.nav-link.logo
+                     a.logo(href='./')
+                        .nav-logo
+                           span.myname CB
+                  li.nav-link
+                     a(href='javascript:void(0)') Contact
+      main
+         .hero
+            .hero-inner
+               .hero-copy
+                  h1 Coding from Afar
+                  p
+                     | Welcome to my coding-related (and only) personal website. I'm Cristián, and along with my wife we decided to leave our country in search of new adventures.
+                  p
+                     | Currently, we live in Mexico City, and a mix of factors including low salaries and painfully long distances, led me to the decision of switching careers and becoming a full-time software engineer
+         section#content
+            .content-wrap
+               block content
+      footer.footer(role='contentinfo')
+         .footer-logo
+            img(src='https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png', alt='Logo image')
+         .footer-links
+            ul
+               li
+                  h3 Content
+               li
+                  a(href='javascript:void(0)') About Me
+               li
+                  a(href='javascript:void(0)') Contact
+               li
+                  a(href='javascript:void(0)') Portfolio
+            ul
+               li
+                  h3 Follow Me
+               li
+                  a(href='javascript:void(0)') Git
+               li
+                  a(href='javascript:void(0)') Codepen
+               li
+                  a(href='javascript:void(0)') LinkedIn
+            ul
+               li
+                  h3 Legal
+               li
+                  a(href='javascript:void(0)') Terms and Conditions
+               li
+                  a(href='javascript:void(0)') Privacy Policy
+         hr
+         p Feel free to copy anything from this site which doesn't belong to someone else.
+      script(src='js/vendor/jquery-1.11.2.min.js')
+      script(src='js/plugins.js')
+      script(src='js/main.js')
+

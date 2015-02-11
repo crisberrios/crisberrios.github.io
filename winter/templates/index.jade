@@ -1,0 +1,33 @@
+extends layout
+include author
+block content
+  .scroll-on-page
+    aside#scroll-on-page-top
+      each article, index in articles
+        a.scroll-on-page-link(href='#scroll-link-'+index)= article.title
+    section.main
+      each article, index in articles
+        article
+          header
+            p.date
+              span= moment.utc(article.date).format('DD. MMMM YYYY')
+            h2(id='scroll-link-'+ index)
+              a(href=article.url)= article.title
+          section
+            if article.intro.length > 0
+              | !{ typogr(article.intro).typogrify() }
+            if article.hasMore
+              p.more
+                a(href=article.url) more
+
+block prepend footer
+  div.nav
+    if prevPage
+      a(href=prevPage.url) « Newer
+    else
+      a(href='/archive.html') « Archives
+    if nextPage
+      a(href=nextPage.url) Next page »
+
+
+
