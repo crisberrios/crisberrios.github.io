@@ -1155,13 +1155,13 @@ html {
 }
 
 .hero {
-  background-image: -webkit-linear-gradient(rgba(30, 87, 153, 0.5), rgba(41, 137, 216, 0.7)), url("../img/header.jpg");
-  background-image: linear-gradient(rgba(30, 87, 153, 0.5), rgba(41, 137, 216, 0.7)), url("../img/header.jpg");
+  background-image: -webkit-linear-gradient(rgba(74, 167, 212, 0.5), rgba(41, 137, 216, 0.7)), url("/img/header.jpg");
+  background-image: linear-gradient(rgba(74, 167, 212, 0.5), rgba(41, 137, 216, 0.7)), url("/img/header.jpg");
   background-size: cover;
   background-position: 50% 80%;
   background-repeat: no-repeat;
   padding-bottom: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-top: 1em;
   max-width: 68em;
   margin-left: auto;
@@ -1211,7 +1211,7 @@ html {
   }
 }
 .hero .hero-inner button {
-  background-color: #477DCA;
+  background-color: #4aa7d4;
   border-radius: 3px;
   border: 0;
   color: white;
@@ -1224,11 +1224,11 @@ html {
   padding: 0.7em 1em;
 }
 .hero .hero-inner button:hover:not(:disabled) {
-  background-color: #578ad4;
+  background-color: #5bb2dd;
   cursor: pointer;
 }
 .hero .hero-inner button:active:not(:disabled), .hero .hero-inner button:focus:not(:disabled) {
-  background-color: #3c71bb;
+  background-color: #3a9bca;
   cursor: pointer;
 }
 .hero .hero-inner button:disabled {
@@ -1379,9 +1379,11 @@ html {
 }
 
 .footer {
-  background: #40526b;
+  background: #3f6679;
   padding: 3em 1.618em;
   width: 100%;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/skin_side_up.png"), -webkit-linear-gradient(180deg, #4ea9d5, #1a516b), center no-repeat #4ea9d5 scroll;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/skin_side_up.png"), linear-gradient(180deg, #4ea9d5, #1a516b), center no-repeat #4ea9d5 scroll;
 }
 .footer ul {
   padding: 0;
@@ -1398,7 +1400,9 @@ html {
   text-align: center;
 }
 .footer .footer-logo img {
-  height: 3em;
+  height: 10em;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 .footer .footer-links {
   margin-bottom: 1.5em;

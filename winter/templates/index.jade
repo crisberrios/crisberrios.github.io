@@ -1,17 +1,17 @@
 extends layout
-include author
 block content
   .hero
     .hero-inner
       .hero-copy
         h1 Coding from Afar
         p
-          | Welcome to my coding-related (and only) personal website. I'm Cristián, and along with my wife we decided to leave our country in search of new adventures.
+          | Welcome to my code-related personal website. I'm Cristián, and along with my wife we decided to leave our country in search of new adventures.
         p
-          | Currently, we live in Mexico City, and a mix of factors including low salaries and painfully long distances, led me to the decision of switching careers and becoming a full-time software engineer
+          | Currently, we live in Mexico City, and a mix of factors including low salaries and painfully long commuting distances led me to the decision of switching careers and becoming a full-time software engineer.
 
   .scroll-on-page
     aside#scroll-on-page-top
+      h2 Latest entries
       each article, index in articles
         a.scroll-on-page-link(href='#scroll-link-'+index)= article.title
       div.nav
@@ -23,10 +23,11 @@ block content
       each article, index in articles
         article
           header
-            p.date
-              span= moment.utc(article.date).format('DD. MMMM YYYY')
-            h2(id='scroll-link-'+ index)
+            h1(id='scroll-link-'+ index)
               a(href=article.url)= article.title
+            p.date
+              span= 'Published on '
+                em= moment.utc(article.date).format('MMMM DD, YYYY')
           section
             if article.intro.length > 0
               | !{ typogr(article.intro).typogrify() }

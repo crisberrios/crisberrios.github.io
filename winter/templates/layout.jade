@@ -46,7 +46,7 @@ html.no-js(lang='en')
             block prepend footer
       footer.footer(role='contentinfo')
          .footer-logo
-            img(src='https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png', alt='Logo image')
+            img(src='/img/profile.jpg', alt='Cristián Berríos')
          .footer-links
             ul
                li
@@ -75,7 +75,15 @@ html.no-js(lang='en')
                   a(href='javascript:void(0)') Privacy Policy
          hr
          p Feel free to copy anything from this site which doesn't belong to someone else.
-      script(src='js/vendor/jquery-1.11.2.min.js')
-      script(src='js/plugins.js')
-      script(src='js/main.js')
+         p= 'Built with '
+            a(href='http://wintersmith.io')= 'Wintersmith, '
+            a(href='http://bourbon.io')= 'Bourbon, '
+            a(href='http://neat.bourbon.io')= 'Neat, '
+            a(href='http://bitters.bourbon.io')= 'Bitters '
+            | and
+            a(href='http://refills.bourbon.io')= ' Refills.'
+
+      script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
+      script(src='/js/plugins.js')
+      script(src='/js/main.js')
 

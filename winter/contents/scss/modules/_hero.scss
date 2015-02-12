@@ -1,19 +1,18 @@
 .hero {
   ///////////////////////////////////////////////////////////////////////////////////
   $base-border-radius: 3px !default;
-  $base-accent-color: #477DCA !default;
+  $base-accent-color: #4aa7d4 !default;
   $large-screen: em(860) !default;
   //////////////////////////////////////////////////////////////////////////////////
 
   $hero-color: white;
-  $hero-image: '';
 
-  @include background-image(linear-gradient(transparentize(#1e5799,0.5), transparentize(#2989d8,0.3) ), url("../img/header.jpg"));
+  @include background-image(linear-gradient(transparentize(#4aa7d4,0.5), transparentize(#2989d8,0.3) ), url("/img/header.jpg"));
   background-size: cover;
   background-position: 50% 80%;
   background-repeat: no-repeat;
   padding-bottom: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-top: 1em;
 
   @include outer-container;

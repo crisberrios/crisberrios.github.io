@@ -1,7 +1,7 @@
 .footer {
   ///////////////////////////////////////////////////////////////////////////////////
   $base-spacing: 1.5em !default;
-  $base-accent-color: #477DCA !default;
+  $base-accent-color: #4aa7d4 !default;
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
 
@@ -27,13 +27,20 @@
   background: $footer-background;
   padding: ($base-spacing * 2) $gutter;
   width: 100%;
+  $texture-top-background: lighten($base-accent-color, 1%);
+  $texture-bottom-background: darken($base-accent-color, 30%);
+  $texture-number : 9;
+
+  @include texture(180deg, $texture-top-background, $texture-bottom-background, $texture-number, 1);
 
   .footer-logo {
     margin-bottom: 2em;
     text-align: center;
 
     img {
-      height: 3em;
+      height: 10em;
+      border-radius: 50%;
+      border: 2px solid white;
     }
   }
 
