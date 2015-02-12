@@ -11,3 +11,6 @@ main {
 section .main {
   @include span-columns(8);
 }
+li .footer-form {
+  display:none;
+}

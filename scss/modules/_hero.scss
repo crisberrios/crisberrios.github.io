@@ -1,22 +1,24 @@
 .hero {
   ///////////////////////////////////////////////////////////////////////////////////
   $base-border-radius: 3px !default;
-  $base-accent-color: #4aa7d4 !default;
+  $base-accent-color: #3a759d !default;
   $large-screen: em(860) !default;
   //////////////////////////////////////////////////////////////////////////////////
-
+  @mixin herobg($transTop,$transBot) {
+    @include background-image(linear-gradient(transparentize($base-accent-color,$transTop), transparentize($base-accent-color,$transBot) ), url("/img/header.jpg"));
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   $hero-color: white;
-
-  @include background-image(linear-gradient(transparentize(#4aa7d4,0.5), transparentize(#2989d8,0.3) ), url("/img/header.jpg"));
-  background-size: cover;
-  background-position: 50% 80%;
-  background-repeat: no-repeat;
+  @include herobg(0.4,0.2);
   padding-bottom: 1em;
   margin-bottom: 2em;
   margin-top: 1em;
-
   @include outer-container;
-
+  border: 2px solid darken($base-accent-color,20%);
+  border-radius: 3px;
   .hero-logo img {
     height: 4em;
     margin-bottom: 1em;
@@ -51,11 +53,6 @@
           max-width: 80%;
         }
       }
-    }
-
-    button {
-      @include button(flat, $base-accent-color);
-      padding: 0.7em 1em;
     }
   }
 }

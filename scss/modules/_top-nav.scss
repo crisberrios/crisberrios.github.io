@@ -2,14 +2,15 @@
     ///////////////////////////////////////////////////////////////////////////////////
     $base-border-radius: 3px !default;
     $dark-gray: #333 !default;
+    $font-color: #FFF !default;
     $large-screen: em(860) !default;
     $mobile-screen: em(480) !default;
-    $base-font-color: $dark-gray !default;
+    $base-font-color: $font-color;
     //////////////////////////////////////////////////////////////////////////////////
 
     $centered-navigation-padding: 0.8em;
     $centered-navigation-logo-height: 60px;
-    $centered-navigation-background: #ecf15c;
+    $centered-navigation-background: #4aa7d4;
     $centered-navigation-color: transparentize($base-font-color, 0.3);
     $centered-navigation-color-hover: $base-font-color;
     $centered-navigation-height: 60px;
@@ -19,15 +20,15 @@
     $centered-navigation-item-nudge: 2.2em;
     $horizontal-bar-mode: $large-screen;
 
-    $texture-top-background: lighten(#fff5a3, 1%);
-    $texture-bottom-background: darken(#fff5a3, 10%);
-    $texture-number : 3;
+    $texture-top-background: lighten($centered-navigation-background, 1%);
+    $texture-bottom-background: darken($centered-navigation-background, 20%);
+    $texture-number : 9;
 
    background-color: $centered-navigation-background;
 
-    @include texture(180deg, $texture-top-background, $texture-bottom-background, $texture-number, 0);
+    @include texture(180deg, $texture-top-background, $texture-bottom-background, $texture-number, 1);
 
-    border-bottom: 2px solid darken($centered-navigation-background, 6%);
+    border-bottom: 2px solid darken($centered-navigation-background, 30%);
     min-height: $centered-navigation-height;
     width: 100%;
     z-index: 9999;

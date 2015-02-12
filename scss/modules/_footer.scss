@@ -21,8 +21,8 @@
 
   $footer-background: desaturate(darken($base-accent-color, 20%), 30%);
   $footer-color: white;
-  $footer-link-color: transparentize($footer-color, 0.6);
-  $footer-disclaimer-color: transparentize($footer-color, 0.6);
+  $footer-link-color: transparentize($footer-color, 0.3);
+  $footer-disclaimer-color: transparentize($footer-color, 0.4);
 
   background: $footer-background;
   padding: ($base-spacing * 2) $gutter;
