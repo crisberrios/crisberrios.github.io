@@ -6,6 +6,7 @@
   $base-link-color: $base-accent-color !default;
   $dark-gray: #333 !default;
   $large-screen: em(860) !default;
+  $small-screen: em(1) !default;
   $base-font-color: $dark-gray !default;
 
   p {
@@ -22,9 +23,14 @@
   display: inline-block;
 
   aside {
+    @include media($small-screen) {
+      display:none;
+    }
     @include media($large-screen) {
       @include span-columns(4);
+
     }
+    padding-left: 2vw;
   }
 
   .scroll-on-page-link {
@@ -40,6 +46,9 @@
   }
 
   article {
+
+    padding: 1vw 2vw 1vw 2vw;
+
     h4 {
       margin: 0 0 0.5em 0;
     }
@@ -47,10 +56,10 @@
     section p:last-of-type {
       margin-bottom: 2em;
     }
-
     @include media($large-screen) {
-      @include span-columns(8 of 8);
+      @include span-columns(8);
     }
+
   }
 }
 

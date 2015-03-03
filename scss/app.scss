@@ -8,9 +8,18 @@ main {
   @include outer-container;
 
 }
-section .main {
-  @include span-columns(8);
-}
 li .footer-form {
-  display:none;
+  display: none;
+}
+
+.article-detail {
+  .content-wrap {
+      padding: 4vh 2vw 4vh 2vw;
+  }
+  img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 5px solid #444;
+  }
 }
