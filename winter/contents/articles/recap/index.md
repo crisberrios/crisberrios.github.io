@@ -13,11 +13,13 @@ Also, I've participated in the design and implementation of a variety of Wordpre
 
 But I never took the time to properly learn JavaScript, CSS, and HTML (HTML5 was a new thing for me). Mostly hacking some scripts here and there, copy-pasting some PHP to make a plug-in work and inline-css-ing to fix some details.
 
-What changed? Well, ever since I met my wife, we have been spending our savings not in a mortgage, or even a car. We have been **travelling** (not as much as you think, but one of our dreams was visiting Japan), and somewhere along the road we decided we should get out of our country and be on the move, in search of new adventures and a better quality of life.
-
-First step: finding a stable job in another country. Since my wife's work is in the academic field, that meant her getting a PhD first or me finding a job in another country. And that leads us to...
+#What changed?#
 
 <span class="more"></span>
+
+Well, ever since I met my wife, we have been spending our savings not in a mortgage, or even a car. We have been **travelling** (not as much as you think, but one of our dreams was visiting Japan), and somewhere along the road we decided we should get out of our country and be on the move, in search of new adventures and a better quality of life.
+
+First step: finding a stable job in another country. Since my wife's work is in the academic field, that meant her getting a PhD first or me finding a job in another country. And that leads us to...
 
 Second step: her being accepted in a doctorate program here in Mexico (top choice in her field). As for me? Look at the next picture:
 

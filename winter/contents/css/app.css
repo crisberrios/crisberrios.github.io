@@ -1231,19 +1231,18 @@ html {
   .scroll-on-page a {
     color: #477DCA;
     text-decoration: none; }
-  .scroll-on-page aside {
-    padding-left: 2vw; }
-    @media screen and (min-width: 0.0625em) {
-      .scroll-on-page aside {
-        display: none; } }
-    @media screen and (min-width: 53.75em) {
-      .scroll-on-page aside {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 31.76157%; }
-        .scroll-on-page aside:last-child {
-          margin-right: 0; } }
+  @media screen and (min-width: 0.0625em) {
+    .scroll-on-page aside {
+      display: none; } }
+  @media screen and (min-width: 53.75em) {
+    .scroll-on-page aside {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      height: 500px; }
+      .scroll-on-page aside:last-child {
+        margin-right: 0; } }
   .scroll-on-page .scroll-on-page-link {
     border-bottom: 1px solid rgba(71, 125, 202, 0.2);
     display: block;
@@ -1255,7 +1254,7 @@ html {
   .scroll-on-page article {
     padding: 1vw 2vw 1vw 2vw; }
     .scroll-on-page article h4 {
-      margin: 0 0 0.5em 0; }
+      padding: 0 0 0.5em 0; }
     .scroll-on-page article section p:last-of-type {
       margin-bottom: 2em; }
     @media screen and (min-width: 53.75em) {
@@ -1263,7 +1262,8 @@ html {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 65.88078%; }
+        width: 65.88078%;
+        margin-right: 0; }
         .scroll-on-page article:last-child {
           margin-right: 0; } }
 
@@ -1281,6 +1281,8 @@ li .footer-form {
 
 .article-detail .content-wrap {
   padding: 4vh 2vw 4vh 2vw; }
+  .article-detail .content-wrap .content {
+    margin-bottom: 30px; }
 .article-detail img {
   display: block;
   margin: 20px auto;
