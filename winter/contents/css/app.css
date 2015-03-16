@@ -1240,7 +1240,7 @@ html {
       display: block;
       margin-right: 2.35765%;
       width: 31.76157%;
-      height: 500px; }
+      min-height: 100vh; }
       .scroll-on-page aside:last-child {
         margin-right: 0; } }
   .scroll-on-page .scroll-on-page-link {
@@ -1252,11 +1252,11 @@ html {
     .scroll-on-page .scroll-on-page-link:last-child {
       margin-bottom: 1.5em; }
   .scroll-on-page article {
-    padding: 1vw 2vw 1vw 2vw; }
+    padding: 0 2vw 0 2vw; }
     .scroll-on-page article h4 {
       padding: 0 0 0.5em 0; }
     .scroll-on-page article section p:last-of-type {
-      margin-bottom: 2em; }
+      margin-bottom: 0.5em; }
     @media screen and (min-width: 53.75em) {
       .scroll-on-page article {
         float: left;
@@ -1288,5 +1288,11 @@ li .footer-form {
   margin: 20px auto;
   border-radius: 20px;
   border: 5px solid #444; }
+.article-detail ol {
+  list-style-type: decimal;
+  padding-left: 40px;
+  margin-bottom: 10px; }
+.article-detail h1 {
+  font-size: 2em; }
 
 /*# sourceMappingURL=app.css.map */

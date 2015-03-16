@@ -5,9 +5,83 @@
     <atom:link href="http://crisberrios.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://crisberrios.github.io</link>
     <description>My journey into becoming a full-stack web developer</description>
-    <pubDate>Sat, 07 Mar 2015 18:00:00 -0600</pubDate>
+    <pubDate>Sat, 14 Mar 2015 18:00:00 -0600</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>The Road So Far</title>
+      <link>http://crisberrios.github.io/articles/the-road-so-far/</link>
+      <pubDate>Sat, 14 Mar 2015 18:00:00 -0600</pubDate>
+      <guid isPermaLink="true">http://crisberrios.github.io/articles/the-road-so-far/</guid>
+      <author></author>
+      <description>&lt;p&gt;In the last weeks, I’ve been asked a few times to document a bit more my journey into web development, so I’m writing this post as a general guide/track that I hope might prove useful, in special to those who are following &lt;a href=&quot;http://www.freecodecamp.com&quot;&gt;FreeCodeCamp&lt;/a&gt;‘s curriculum.&lt;/p&gt;
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Last year, while we were preparing to leave our country, I made the decision to switch careers, as it would be very difficult to find a job as an electronics engineer given the conditions on which we were going to live.&lt;/p&gt;
+&lt;p&gt;Also, I’ve always been a computers geek and had some experience with programming (mostly C, some C#) and a story with amateur web design (mostly Wordpress blogs), so I first came to the conclusion that C# and ASP.NET was the way to go.&lt;/p&gt;
+&lt;p&gt;Then, I started doing some reads on C#, signed-up for a Udemy course and jumped in to my new .NET career for about… 2 days, until a dev friend told me about this new thing called &lt;strong&gt;&lt;em&gt;Node.js&lt;/em&gt;&lt;/strong&gt;. 2 blog posts later and goodbye C#.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/good-bye.gif&quot; alt=&quot;Goodbye, C#&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;first-steps&quot;&gt;First steps&lt;/h1&gt;
+&lt;p&gt;Fast forward to Mexico and after doing some reserach, I stumbled up with &lt;a href=&quot;http://www.reddit.com/r/learnjavascript/comments/2179b5/learn_javascript_properly_omnibus_post_for_the/&quot;&gt;Learn JavaScript Properly&lt;/a&gt;, which was my first &lt;em&gt;real&lt;/em&gt; approach to coding in JavaScript.&lt;/p&gt;
+&lt;p&gt;About 2 weeks later, I became bored as the program mostly focused on reading Professional JavaScript for Web Developers, and started a web marketing project (ClickBank) which didn’t go as planned but at least gives me some much needed passive income.&lt;/p&gt;
+&lt;p&gt;In the meantime, without any structure or clear goal, I started learning &lt;strong&gt;Node.js&lt;/strong&gt; and did many &lt;a href=&quot;http://www.codeschool.com&quot;&gt;CodeSchool&lt;/a&gt; courses. I also started doing some small projects with what I learned, including a real-time car GPS visualization using socket.io, a spanish multi-corpus scraper to help my wife in her doctorate and an article remixer for my marketing venture.&lt;/p&gt;
+&lt;p&gt;And the software &lt;strong&gt;did&lt;/strong&gt; work, but once I wanted to start adding more features, I realized the code was a &lt;strong&gt;&lt;em&gt;callback nightmare&lt;/em&gt;&lt;/strong&gt; and delicious &lt;strong&gt;&lt;em&gt;spaghetti&lt;/em&gt;&lt;/strong&gt;, so I needed to strengthen my basic skills. Also, I abandoned my marketing venture and decided (again) to become an &lt;strong&gt;excellent developer&lt;/strong&gt;, this time for real. Bring it on, JavaScript!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/bring-it-on.gif&quot; alt=&quot;Bring it On, JavaScript&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;enter-freecodecamp&quot;&gt;Enter FreeCodeCamp&lt;/h1&gt;
+&lt;p&gt;In January, I came back to learning JavaScript (and HTML, and CSS), and after a second research, I found about FreeCodeCamp in a site with many &lt;a href=&quot;http://js.startrack.io/&quot;&gt;JavaScript Learning Paths&lt;/a&gt;. Since I’ve already been learning JS and also did CodeAcademy/CodeSchool courses, I rushed through most of the challenges, and in a few days I completed all the easy and medium &lt;a href=&quot;http://coderbyte.com/CodingArea/Challenges/&quot;&gt;Coderbyte&lt;/a&gt; challenges, which marked the end of FCC’s curriculum and made me eligible for nonoprofit work.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/fast.gif&quot; alt=&quot;That escalated quickly&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;beyond-freecodecamp&quot;&gt;Beyond FreeCodeCamp&lt;/h1&gt;
+&lt;p&gt;Once I finished FCC’s curriculum, it was time for nonprofit work (which I’m currently doing), but the curriculum doesn’t get you very far in terms of depth, algorithms, frameworks and best practices. So it was time to start doing some serious training. Back to the site where I found FreeCodeCamp, and after some reads, I started with Eric Elliot’s path: a lot of books, readings and videos. From the list, that you can find on &lt;a href=&quot;https://medium.com/javascript-scene/learn-javascript-b631a4af11f2&quot;&gt;this link&lt;/a&gt;, I went through the following readings (in order):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Eloquent JavaScript (good intro, sometimes too eloquent)&lt;/li&gt;
+&lt;li&gt;JavaScript: The Good Parts (300% recommended. Short and concise. A good alternative is “JavaScript Succintly” if you want to go the 100% free path, but try to get JS:TGP since it’s awesome. JS Succintly is also a good complementary read if you need to feel more confident after Eloquent JavaScript.)&lt;/li&gt;
+&lt;li&gt;Programming JavaScript Applications (Very good too)&lt;/li&gt;
+&lt;li&gt;The Two Pillars of JavaScript (short articles, somewhat opinionated but good reads)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Also, derived from that list, I read “JavaScript Allongé” which is a good advanced intro to functional programming and higher order functions. After reading this I got a new perspective on JavaScript, and that summed to some coding examples by Danny Fritz (@dannyfritz) and Nathan (@terakilobyte) from FCC, made me develop a great interest for functional programming and Ramda, which I recommend instead of Lodash or Underscore.&lt;/p&gt;
+&lt;p&gt;In between, I also started building this blog. For that purpose, I learned some &lt;a href=&quot;http://sass-lang.com/&quot;&gt;Sass&lt;/a&gt; and &lt;a href=&quot;http://jade-lang.com/&quot;&gt;Jade&lt;/a&gt; with a dash of Markdown, and since I wanted to learn something else apart from Bootstrap, I gave &lt;a href=&quot;http://bourbon.io/&quot;&gt;Bourbon&lt;/a&gt; and Neat a try. So far I’m liking them a lot, since I don’t have to mess that much with classes like in Bootstrap.&lt;/p&gt;
+&lt;p&gt;Then, I started going through all the resources found in &lt;a href=&quot;https://gist.github.com/ericelliott/d576f72441fc1b27dace&quot;&gt;This Gist&lt;/a&gt;, also by Eric Elliot. I’ve already watched every video and read every article on the “required” sections, and I recommend that you also do it. That’s where I found about Functional Reactive Programming.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/frp-stream.jpg&quot; alt=&quot;Everything is a Stream&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;the-road-to-functional-greatness&quot;&gt;The Road to Functional Greatness&lt;/h1&gt;
+&lt;p&gt;After the Functional Reactive Programming readings and videos (Netflix presentation) I got really hyped with this paradigm. It’s not the ultimate solution for every problem, but certainly I see it applied to most current async applications. That lead me to watch &lt;strong&gt;“Hardcore functional programming”&lt;/strong&gt; from Frontend Masters, and from there I went to learn more about functors, monads and the &lt;a href=&quot;https://github.com/fantasyland/fantasy-land&quot;&gt;Fantasy Land&lt;/a&gt; spec. It’s the daily bread in languages like Haskell, but it’s very new in JavaScript, with many benefits associated.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/fantasy-logo.png&quot; alt=&quot;Fantasy Land&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Once finished with “Hardcore Functional Programming”, I went back to learning Reactive stuff. Most prominent libraries are the &lt;a href=&quot;http://reactivex.io/&quot;&gt;Reactive Extensions (Rx)&lt;/a&gt;, used by many big guns including Microsoft and Netflix, and &lt;a href=&quot;https://baconjs.github.io/&quot;&gt;Bacon.js&lt;/a&gt;, which is inspired by Rx. Before starting, I made a &lt;a href=&quot;http://codepen.io/crisberrios/pen/ogPWmJ?editors=001&quot;&gt;little example&lt;/a&gt; just because I couldn’t wait before I started using this new enlightened paradigm.&lt;/p&gt;
+&lt;p&gt;There are lots of resources on Rx. Here’s an outline of what I’ve been reading/doing:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://gist.github.com/staltz/868e7e9bc2a7b8c1f754&quot;&gt;The introduction to Reactive Programming you’ve been missing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/kriskowal/gtor&quot;&gt;A General Theory of Reactivity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://xgrommx.github.io/rx-book/content/summary.html&quot;&gt;Rx Book&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://reactive-extensions.github.io/learnrx/&quot;&gt;Learn Rx&lt;/a&gt; (Also, a great resource for understanding the basic functional methods like map, reduce and filter)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.cognitect.com/blog/2014/8/6/transducers-are-coming&quot;&gt;Transducers are coming&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jlongster.com/Transducers.js--A-JavaScript-Library-for-Transformation-of-Data&quot;&gt;Transducers.js: A JavaScript Library for Transformation of Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html&quot;&gt;Functors, Applicatives, And Monads In Pictures&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Don’t expect this to be an easy reading, but it will change the way you see the flow of data inside a program.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/rainman.gif&quot; alt=&quot;Rainman&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;what-s-next-&quot;&gt;What’s Next?&lt;/h1&gt;
+&lt;p&gt;So, you’ve arrived at where I am now. Where are the frameworks? you might ask. To tell you the truth, I don’t really care that much. My reasoning is that if I become very good at JS, any framework will be easy to learn. In special, the ones that are more modular, like Backbone or Riot. Node is just a JS enviroment, and FRP covers a lot of what you do in the backend, and Express is built to made things easy for the devs. Still, my focus is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Finish learning Rx/Bacon and use it as much as I can in my future projects.&lt;/li&gt;
+&lt;li&gt;Keep getting better at functional programming. It’s easy to ready, easy to extend, easy to reuse the code made this way and easy to test.&lt;/li&gt;
+&lt;li&gt;Learn some sought-after skills, since a “I don’t know anything about Angular, but I’m a quick learner” won’t do in most cases.&lt;/li&gt;
+&lt;li&gt;Build a portfolio&lt;/li&gt;
+&lt;li&gt;Prepare for interviews&lt;/li&gt;
+&lt;li&gt;Keep learning something new everyday.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Bonus: keep pairing and helping other campers. Helping others has helped me a lot with solidifying my basic skills. I’ve learned from my errors when trying to explain something, and I keep learning better ways to do the same routines. Also, I’m practicing my english (which is not my native language), so it’s a win/win.&lt;/p&gt;
+&lt;h1 id=&quot;reading-list-and-final-thoughts&quot;&gt;Reading List and Final Thoughts&lt;/h1&gt;
+&lt;p&gt;For the next days/weeks, I have the following books/courses on my reading/watching list:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You don’t know JS series&lt;/li&gt;
+&lt;li&gt;Cracking the Code Interview&lt;/li&gt;
+&lt;li&gt;Elements of Programming Interviews&lt;/li&gt;
+&lt;li&gt;Programming Interviews Exposed (not so sure about this one)&lt;/li&gt;
+&lt;li&gt;Mostly everything on &lt;a href=&quot;https://plus.google.com/+AddyOsmani/posts/H3onog42Msj&quot;&gt;this page&lt;/a&gt; by Addy Osmani&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And this is the end for now. I still have a long way to go, but my goal is to &lt;strong&gt;land a good job&lt;/strong&gt;, in a &lt;strong&gt;good company&lt;/strong&gt;, in a &lt;strong&gt;good country&lt;/strong&gt;, and do &lt;strong&gt;great things&lt;/strong&gt; doing the &lt;strong&gt;thing I love&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;So I have to &lt;strong&gt;&lt;em&gt;become a better coder&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/challenge.jpg&quot; alt=&quot;Challenge yourself&quot;&gt;&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>7 days with jQuery</title>
       <link>http://crisberrios.github.io/articles/jquery-week/</link>
@@ -15,14 +89,18 @@
       <guid isPermaLink="true">http://crisberrios.github.io/articles/jquery-week/</guid>
       <author></author>
       <description>&lt;p&gt;Last week, I came (again) to the realization that my online portfolio was null, zero, &lt;em&gt;void 0&lt;/em&gt;, nada, so I decided to challenge myself and commit one little project each day during 7 days using a versatile, widely used and easy to learn library that I’ve never explored before starting &lt;a href=&quot;http://www.freecodecamp.com&quot;&gt;FreeCodeCamp&lt;/a&gt;. That library is, of course, &lt;strong&gt;jQuery&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt; &lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;getting-ideas&quot;&gt;Getting Ideas&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/jquery-week/jquery-logo.png&quot; alt=&quot;jQuery&quot;&gt;&lt;/p&gt;
 &lt;p&gt;For project ideas, I already had some ideas in mind, but I wanted to go a little off-the track from the major typical examples like a slider or a modal window. I also wanted them to be made “from scratch”, so no “make your own xxx with jQuery” YouTube or blog tutorials. The setup was simple. 1st: open CodePen 2nd: start to code.&lt;/p&gt;
+&lt;h2 id=&quot;strenghtening-the-basics&quot;&gt;Strenghtening the basics&lt;/h2&gt;
 &lt;p&gt; In parallel, I’ve also been reading a lot, going through every article, video, book and link on this &lt;a href=&quot;https://gist.github.com/ericelliott/d576f72441fc1b27dace&quot;&gt;Gist&lt;/a&gt; by Eric Elliot. It really gives you a good path for learning JavaScript properly. I’m still missing many books and links reommended there, but I can recommend them 100%.&lt;/p&gt;
 &lt;p&gt;Furthermore, this week I learned about &lt;strong&gt;Reactive Functional Programming&lt;/strong&gt;, which is a totally new paradigm from my classic &lt;em&gt;C&lt;/em&gt; background, and from mostly all the JS I’ve learned up until now. It got me super excited and made me want to refactor everything using it, so one of the projects I made uses &lt;a href=&quot;https://baconjs.github.io/&quot;&gt;BaconJS&lt;/a&gt; as a proof of concept, and it also plays very nice with jQuery. Totally mindblown.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/jquery-week/barney.gif&quot; alt=&quot;Mind Effin Blown&quot;&gt;&lt;/p&gt;
-&lt;p&gt;So I went on and made 7 pens this week. Wrapping it up, I learned many new things about jQuery and the DOM (like requestAnimationFrame), I had lots of fun doing the projects, and beefed up my frontend portfolio for good measure. I hope you like the projects/pens, and if you are starting from 0 like me, gives you some motivation to start your own challenge.&lt;/p&gt;
+&lt;h2 id=&quot;just-do-it-&quot;&gt;Just do it!&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;So I went on and made 7 pens this week&lt;/strong&gt;. No frills, no struggle, that’s it. Just dedicated 1 hour or 2 each day and went on with my self-imposed challenge. Wrapping it up, I learned many new things about jQuery and the DOM (like requestAnimationFrame), I had lots of fun doing the projects, and beefed up my frontend portfolio for good measure. I hope you like the projects/pens, and if you are starting from 0 like me, gives you some motivation to start your own challenge.&lt;/p&gt;
 &lt;p&gt;Of course, here’s &lt;strong&gt;The Link&lt;/strong&gt; to &lt;a href=&quot;http://codepen.io/crisberrios/&quot;&gt;my Codepen&lt;/a&gt;. Enjoy!&lt;/p&gt;
+&lt;p&gt;UPDATE:&lt;/p&gt;
+&lt;p&gt;I’ve read about this girl who made 180 websites in 180 days. Quite a feat! and even some sites are very simple, she had the constance to never stop doing it. &lt;a href=&quot;http://jenniferdewalt.com/index.html&quot;&gt;Here’s the site&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;bonus-recommended-links&quot;&gt;Bonus recommended links&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gawmdhCNy-A&quot;&gt;Reactive programming video from Netflix&lt;/a&gt;&lt;/li&gt;
@@ -37,12 +115,11 @@
       <pubDate>Tue, 10 Feb 2015 18:00:00 -0600</pubDate>
       <guid isPermaLink="true">http://crisberrios.github.io/articles/recap/</guid>
       <author></author>
-      <description>&lt;p&gt;So here I am. Living in the outskirts of Mexico City while learning how to &lt;em&gt;properly&lt;/em&gt; code and become a full stack web developer with the help of &lt;a href=&quot;https://www.freecodecamp.org&quot;&gt;Free Code Camp&lt;/a&gt; online bootcamp.&lt;/p&gt;
-&lt;p&gt;What was I doing before this? Well, this isn’t my first coding experience, nor my first web-dev experience. I &lt;em&gt;used to be&lt;/em&gt; (since I’m switching careers) an electronics engineer, and I’ve done some nice and interesting projects, mostly related with &lt;strong&gt;M2M&lt;/strong&gt; and &lt;strong&gt;Fleet Management&lt;/strong&gt; services, coding firmware for embedded devices and making scripts for data terminals.&lt;/p&gt;
-&lt;p&gt;Also, I’ve participated in the design and implementation of a variety of Wordpress sites/blogs, static HTML sites and worked as SEO/SEM manager for small businesses as my hobby side job.&lt;/p&gt;
-&lt;p&gt;But I never took the time to properly learn JavaScript, CSS, and HTML (HTML5 was a new thing for me). Mostly hacking some scripts here and there, copy-pasting some PHP to make a plug-in work and inline-css-ing to fix some details.&lt;/p&gt;
-&lt;h1 id=&quot;what-changed-&quot;&gt;What changed?&lt;/h1&gt;
-&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;So here I am. Living in the outskirts of Mexico City while learning how to &lt;em&gt;properly&lt;/em&gt; code and become a full stack web developer with the help of &lt;a href=&quot;https://www.freecodecamp.org&quot;&gt;Free Code Camp&lt;/a&gt; online bootcamp. On this first post, I’ll tell you the story of why I decided to switch careers.&lt;/p&gt;
+&lt;h2 id=&quot;what-was-i-doing-before-this-&quot;&gt;What was I doing before this?&lt;/h2&gt;
+&lt;p&gt;Well, this isn’t my first coding experience, nor my first web-dev experience. I &lt;em&gt;used to be&lt;/em&gt; (since I’m switching careers) an electronics engineer, and I’ve done some nice and interesting projects, mostly related with &lt;strong&gt;M2M&lt;/strong&gt; and &lt;strong&gt;Fleet Management&lt;/strong&gt; services, coding firmware for embedded devices and making scripts for data terminals.&lt;/p&gt;
+&lt;p&gt;Also, I’ve participated in the design and implementation of a variety of Wordpress sites/blogs, static HTML sites and worked as SEO/SEM manager for small businesses as my hobby side job. But I never took the time to properly learn JavaScript, CSS, and HTML (HTML5 was a new thing for me). Mostly hacking some scripts here and there, copy-pasting some PHP to make a plug-in work and inline-css-ing to fix some details.&lt;/p&gt;
+&lt;h2 id=&quot;what-changed-&quot;&gt;What changed?&lt;/h2&gt;
 &lt;p&gt;Well, ever since I met my wife, we have been spending our savings not in a mortgage, or even a car. We have been &lt;strong&gt;travelling&lt;/strong&gt; (not as much as you think, but one of our dreams was visiting Japan), and somewhere along the road we decided we should get out of our country and be on the move, in search of new adventures and a better quality of life.&lt;/p&gt;
 &lt;p&gt;First step: finding a stable job in another country. Since my wife’s work is in the academic field, that meant her getting a PhD first or me finding a job in another country. And that leads us to…&lt;/p&gt;
 &lt;p&gt;Second step: her being accepted in a doctorate program here in Mexico (top choice in her field). As for me? Look at the next picture:&lt;/p&gt;
@@ -53,7 +130,7 @@
 And JS is quite similar to C and C#, which I’ve dealt with before, so it seemed to be the perfect choice!&lt;/p&gt;
 &lt;p&gt;So, after some research, I started with “Learn JavaScript properly”, then jumped to “&lt;a href=&quot;http://mejorando.la&quot;&gt;Mejorando.la&lt;/a&gt;“, a site in spanish site with paid courses, and after a 3 month break for a somewhat failed Internet Marketing project, I came back to learning JS, and that’s where I found &lt;em&gt;FCC&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;And what’s next? Well, I’ve recently finished the challenges and I’ve started my first project for a nonprofit organization called &lt;a href=&quot;http://kopernik.info/&quot;&gt;Kopernik&lt;/a&gt;. It’s very nice to be able to help people with this kind of work and I really hope I can do many projects, even after I finish the &lt;strong&gt;900 hours&lt;/strong&gt; of nonprofit work.&lt;/p&gt;
-&lt;p&gt;Also, I wish I can keep helping other people in the FCC community as many don’t have a coding background but are very motivated in learning how to code, and there is proof that even beginners can get quickly up to speed with coding, and hopefully improve their lives with the skills acquired.&lt;/p&gt;
+&lt;p&gt;Also, I wish I can keep helping other people in the FCC community as many don’t have a coding background but are very motivated in learning how to code, and there is proof that even beginners can get quickly up to speed with coding, hopefully improving their lives with the skills they acquire.&lt;/p&gt;
 </description>
     </item>
   </channel>

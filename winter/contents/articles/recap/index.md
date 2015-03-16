@@ -5,17 +5,15 @@ date: 2015-02-11
 template: article.jade
 ---
 
-So here I am. Living in the outskirts of Mexico City while learning how to _properly_ code and become a full stack web developer with the help of [Free Code Camp](https://www.freecodecamp.org) online bootcamp.
+So here I am. Living in the outskirts of Mexico City while learning how to _properly_ code and become a full stack web developer with the help of [Free Code Camp](https://www.freecodecamp.org) online bootcamp. On this first post, I'll tell you the story of why I decided to switch careers.
 
-What was I doing before this? Well, this isn't my first coding experience, nor my first web-dev experience. I *used to be* (since I'm switching careers) an electronics engineer, and I've done some nice and interesting projects, mostly related with **M2M** and **Fleet Management** services, coding firmware for embedded devices and making scripts for data terminals.
+##What was I doing before this?
 
-Also, I've participated in the design and implementation of a variety of Wordpress sites/blogs, static HTML sites and worked as SEO/SEM manager for small businesses as my hobby side job.
+Well, this isn't my first coding experience, nor my first web-dev experience. I *used to be* (since I'm switching careers) an electronics engineer, and I've done some nice and interesting projects, mostly related with **M2M** and **Fleet Management** services, coding firmware for embedded devices and making scripts for data terminals.
 
-But I never took the time to properly learn JavaScript, CSS, and HTML (HTML5 was a new thing for me). Mostly hacking some scripts here and there, copy-pasting some PHP to make a plug-in work and inline-css-ing to fix some details.
+Also, I've participated in the design and implementation of a variety of Wordpress sites/blogs, static HTML sites and worked as SEO/SEM manager for small businesses as my hobby side job. But I never took the time to properly learn JavaScript, CSS, and HTML (HTML5 was a new thing for me). Mostly hacking some scripts here and there, copy-pasting some PHP to make a plug-in work and inline-css-ing to fix some details.
 
-#What changed?#
-
-<span class="more"></span>
+##What changed?
 
 Well, ever since I met my wife, we have been spending our savings not in a mortgage, or even a car. We have been **travelling** (not as much as you think, but one of our dreams was visiting Japan), and somewhere along the road we decided we should get out of our country and be on the move, in search of new adventures and a better quality of life.
 
@@ -36,4 +34,4 @@ So, after some research, I started with "Learn JavaScript properly", then jumped
 
 And what's next? Well, I've recently finished the challenges and I've started my first project for a nonprofit organization called [Kopernik](http://kopernik.info/). It's very nice to be able to help people with this kind of work and I really hope I can do many projects, even after I finish the **900 hours** of nonprofit work.
 
-Also, I wish I can keep helping other people in the FCC community as many don't have a coding background but are very motivated in learning how to code, and there is proof that even beginners can get quickly up to speed with coding, and hopefully improve their lives with the skills acquired.
+Also, I wish I can keep helping other people in the FCC community as many don't have a coding background but are very motivated in learning how to code, and there is proof that even beginners can get quickly up to speed with coding, hopefully improving their lives with the skills they acquire.
