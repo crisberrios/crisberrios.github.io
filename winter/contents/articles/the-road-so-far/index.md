@@ -78,7 +78,7 @@ Don't expect this to be an easy reading, but it will change the way you see the 
 
 #What's Next?#
 
-So, you've arrived at where I am now. Where are the frameworks? you might ask. To tell you the truth, I don't really care that much. My reasoning is that if I become very good at JS, any framework will be easy to learn. In particular, the ones that are more modular like Backbone or Riot. Node is just a JS enviroment, FRP covers most of what you do in the backend, and Express is built to make things easy for the devs. Still, my focus is:
+So, you've arrived at where I am now. Where are the frameworks? you might ask. To tell you the truth, I don't really care that much. My reasoning is that if I become very good at JS, any framework will be easy to learn. In particular, the ones that are more modular like Backbone or Riot. Node is just a JS environment, FRP covers most of what you do in the backend, and Express is built to make things easy for the devs. Still, my focus is:
 
 1. Finish learning Rx/Bacon and use it as much as I can in my future projects.
 2. Keep getting better at functional programming. It's easy to ready, easy to extend, easy to reuse the code made this way and easy to test.
