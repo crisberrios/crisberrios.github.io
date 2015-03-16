@@ -20,9 +20,9 @@ Then, I started doing some reads on C#, signed-up for a Udemy course and jumped 
 
 #First steps#
 
-Fast forward to Mexico and after doing some reserach, I stumbled up with [Learn JavaScript Properly](http://www.reddit.com/r/learnjavascript/comments/2179b5/learn_javascript_properly_omnibus_post_for_the/), which was my first *real* approach to coding in JavaScript.
+Fast forward to Mexico and after doing some reserach, I stumbled upon with [Learn JavaScript Properly](http://www.reddit.com/r/learnjavascript/comments/2179b5/learn_javascript_properly_omnibus_post_for_the/), which was my first *real* approach to coding in JavaScript.
 
-About 2 weeks later, I became bored as the program mostly focused on reading Professional JavaScript for Web Developers, and started a web marketing project (ClickBank) which didn't go as planned but at least gives me some much needed passive income.
+About 2 weeks later, I became bored as the program mostly focused on reading ***Professional JavaScript for Web Developers*** (a good book, by the way), and started a web marketing project (ClickBank) which didn't go as planned but at least gives me some much needed passive income.
 
 In the meantime, without any structure or clear goal, I started learning **Node.js** and did many [CodeSchool](http://www.codeschool.com) courses. I also started doing some small projects with what I learned, including a real-time car GPS visualization using socket.io, a spanish multi-corpus scraper to help my wife in her doctorate and an article remixer for my marketing venture.
 
