@@ -33,7 +33,7 @@ And the software **did** work, but once I wanted to start adding more features, 
 
 #Enter FreeCodeCamp#
 
-In January, I came back to learning JavaScript (and HTML, and CSS), and after a second research, I found about FreeCodeCamp in a site with many [JavaScript Learning Paths](http://js.startrack.io/). Since I've already been learning JS and also did CodeAcademy/CodeSchool courses, I rushed through most of the challenges, and in a few days I completed all the easy and medium [Coderbyte](http://coderbyte.com/CodingArea/Challenges/) challenges, which marked the end of FCC's curriculum and made me eligible for nonoprofit work.
+In January, I came back to learning JavaScript (and HTML, and CSS), and after a second research, I found about FreeCodeCamp in a site with many [JavaScript Learning Paths](http://js.startrack.io/). Since I've already been learning JS and also did CodeAcademy/CodeSchool courses, I rushed through most of the challenges, and in a few days I completed all the easy and medium [Coderbyte](http://coderbyte.com/CodingArea/Challenges/) challenges, which marked the end of FCC's curriculum and made me eligible for nonprofit work.
 
 ![That escalated quickly](fast.gif)
 
@@ -78,7 +78,7 @@ Don't expect this to be an easy reading, but it will change the way you see the 
 
 #What's Next?#
 
-So, you've arrived at where I am now. Where are the frameworks? you might ask. To tell you the truth, I don't really care that much. My reasoning is that if I become very good at JS, any framework will be easy to learn. In special, the ones that are more modular, like Backbone or Riot. Node is just a JS enviroment, FRP covers a lot of what you do in the backend, and Express is built to make things easy for the devs. Still, my focus is:
+So, you've arrived at where I am now. Where are the frameworks? you might ask. To tell you the truth, I don't really care that much. My reasoning is that if I become very good at JS, any framework will be easy to learn. In particular, the ones that are more modular like Backbone or Riot. Node is just a JS enviroment, FRP covers most of what you do in the backend, and Express is built to make things easy for the devs. Still, my focus is:
 
 1. Finish learning Rx/Bacon and use it as much as I can in my future projects.
 2. Keep getting better at functional programming. It's easy to ready, easy to extend, easy to reuse the code made this way and easy to test.
