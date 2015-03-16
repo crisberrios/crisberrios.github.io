@@ -58,7 +58,7 @@
 &lt;p&gt;Don’t expect this to be an easy reading, but it will change the way you see the flow of data inside a program.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/rainman.gif&quot; alt=&quot;Rainman&quot;&gt;&lt;/p&gt;
 &lt;h1 id=&quot;what-s-next-&quot;&gt;What’s Next?&lt;/h1&gt;
-&lt;p&gt;So, you’ve arrived at where I am now. Where are the frameworks? you might ask. To tell you the truth, I don’t really care that much. My reasoning is that if I become very good at JS, any framework will be easy to learn. In particular, the ones that are more modular like Backbone or Riot. Node is just a JS enviroment, FRP covers most of what you do in the backend, and Express is built to make things easy for the devs. Still, my focus is:&lt;/p&gt;
+&lt;p&gt;So, you’ve arrived at where I am now. Where are the frameworks? you might ask. To tell you the truth, I don’t really care that much. My reasoning is that if I become very good at JS, any framework will be easy to learn. In particular, the ones that are more modular like Backbone or Riot. Node is just a JS environment, FRP covers most of what you do in the backend, and Express is built to make things easy for the devs. Still, my focus is:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Finish learning Rx/Bacon and use it as much as I can in my future projects.&lt;/li&gt;
 &lt;li&gt;Keep getting better at functional programming. It’s easy to ready, easy to extend, easy to reuse the code made this way and easy to test.&lt;/li&gt;
