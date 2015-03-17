@@ -74,9 +74,10 @@ html.no-js(lang='en')
                li
                   a.toggle-form(href='#') Send me a message »
                li
-                  form.footer-form
+                  form.footer-form(action="//formspree.io/cristian.berrios@outlook.cl")
                      input.email-footer(type="email", placeholder="e-mail", required)
-                     input.text-footer(type="text",size="140", placeholder="message", required)
+                     input.text-footer(type="text",size="140", name="message",placeholder="message", required)
+                     input(type="text",name="_gotcha",style="display:none")
                      input.submit-footer(type="submit")
 
          hr
