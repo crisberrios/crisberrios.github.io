@@ -1,5 +1,5 @@
 ---
-title: Kopernik, My First Nonprofit Experience at FreeCodeCamp
+title: Kopernik, my First Nonprofit Experience at FreeCodeCamp
 author: Cristian
 date: 2015-03-31
 template: article.jade
