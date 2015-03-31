@@ -21,7 +21,13 @@ FCC is a **free**, online **bootcamp** for aspiring web developers, focused on t
  
 After finishing the *challenges* (FreeCodeCamp's curriculum) I got assigned to a project ****(yay!)**** along with other fellow *camper*, Alex. Our project was for a nonprofit called [Kopernik](http://kopernik.info), with operations in many countries of Asia, but in this case it was for the Indonesian branch. What **Kopernik** does is to bring clean technologies to very poor and remote regions of eastern Indonesia, helping women and their families improve their lives and empower them with a business. You can find more watching [this video](https://www.youtube.com/watch?v=1-uLP1iep6E).
 
-The project itself consisted of a data capture app that was able to work offline, with automatic upload of the data when a connection was available, since the connection in the remote regions of Indonesia go out for weeks. This had us researching a few days before we decided to go with a **Chrome extension**, so we could leverage chrome local storage and have background services running. Once this was decided, we were ready to start coding.
+####The problem
+
+>For Kopernik to measure the impact of this project and improve our project methodology, we need to record sales data from our agents as well as some data about the end users of the technologies. Later, we interview end users to determine to what extent the technology has improved their lives.
+
+>However, our sales agents and area coordinators work in regions where access to the internet is limited, unreliable and slow. Users generally have minimal experience with computers and devices. Sales data is gathered from our agents using paper receipts, but getting that data into a format that Kopernik can use create meaningful reports is a complicated process.
+
+As you can see, this project posed many challenges, including inexperienced end-users and adverse conditions for a web app. Ultimately, this problem translated into a data capture app that was able to work offline with automatic uploading when a connection was available, since in the regions described it can go out for weeks. This had us researching a few days before we decided to go with a **Chrome extension**, so we could leverage Chrome local storage and have background services running. We also chose it because a web browser is a familiar interface and enabled us to do automatic updates using the app store. Once this was decided, we were ready to start coding.
 
 ##Amber, our MVP Stakeholder
 
