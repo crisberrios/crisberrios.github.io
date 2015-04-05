@@ -5,13 +5,76 @@
     <atom:link href="http://crisberrios.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://crisberrios.github.io</link>
     <description>My journey into becoming a full-stack web developer</description>
-    <pubDate>Mon, 30 Mar 2015 18:00:00 -0600</pubDate>
+    <pubDate>Tue, 14 Apr 2015 19:00:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
+      <title>Journey Update and JavaScript Resources</title>
+      <link>http://crisberrios.github.io/articles/journey-update-and-javascript-resources/</link>
+      <pubDate>Tue, 14 Apr 2015 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://crisberrios.github.io/articles/journey-update-and-javascript-resources/</guid>
+      <author></author>
+      <description>&lt;p&gt;This week, I hit a milestone in my journey as we &lt;a href=&quot;http://crisberrios.github.io/articles/kopernik-first-nonprofit-experience-at-freecodecamp/&quot;&gt;finished our first nonprofit project&lt;/a&gt; at FCC. So, until the next project arrives the study goes on, and here’s a recap of what I’ve learned this past two weeks.&lt;/p&gt;
+&lt;h2 id=&quot;focus-switch&quot;&gt;Focus Switch&lt;/h2&gt;
+&lt;p&gt;Since I’ve been getting a little more confident with my JavaScript skills, I started moving from a 100% pure JavaScript approach to learning some practical skills alongside JS. Nonetheless, it’s still about 40% pure JS and 60% other things including frameworks, which are (mostly) 100% JS, so JS is still a big part of my daily study. I’ve also started doing some personal projects: there’s a small static site I’m building for a family member (which in turn helped me &lt;a href=&quot;https://github.com/crisberrios/static-starter&quot;&gt;streamline my frontend workflow&lt;/a&gt;) and another small CRUD project using React and Backbone.&lt;/p&gt;
+&lt;h2 id=&quot;resources-ahoy-&quot;&gt;Resources ahoy!&lt;/h2&gt;
+&lt;p&gt;To keep the post short, here’s a compilation of the best resources I’ve read and watched this past 2 weeks:&lt;/p&gt;
+&lt;h4 id=&quot;books&quot;&gt;Books&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures&quot;&gt;You Don’t Know JS: Scope &amp;amp; Closures&lt;/a&gt; This book series is awesome and I’m looking forward to reading the rest of the series.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; This book by Addy Osmani is very good to start learning Backbone, and also free online.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.packtpub.com/web-development/backbonejs-blueprints&quot;&gt;Backbone.js Blueprints&lt;/a&gt; free with a Tutsplus subscription, it’s also very good since it guides you through many projects using Backbone.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://jcouyang.gitbooks.io/functional-javascript/content/en/index.html&quot;&gt;Functional JavaScript&lt;/a&gt; a small book with good content about functional JavaScript.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;courses&quot;&gt;Courses&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/introduction-typescript-microsoft-dev201x&quot;&gt;Introduction to TypeScript&lt;/a&gt; Free from Microsoft, why not?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://university.mongodb.com/courses/M101JS/about&quot;&gt;MongoDB for Node.js Developers&lt;/a&gt; Very good, verified and free. A must for new JS developers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.tutsplus.com/courses/getting-started-with-backbone&quot;&gt;Getting Started with Backbone.js&lt;/a&gt; the most updated introductory course to Backbone.js. A bit condensed but great after reading Addy’s book.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://code.tutsplus.com/courses/getting-started-with-reactjs&quot;&gt;Getting Started with React.js&lt;/a&gt; A very good intro to React.js&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;blog-posts&quot;&gt;Blog posts&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://raganwald.com/2015/03/12/symmetry.html&quot;&gt;The Symmetry of JavaScript Functions&lt;/a&gt; by Ragan Wald. No need to say anything else.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dannyfritz.wordpress.com/2015/02/03/web-development-design-tools-january-2015/&quot;&gt;Web Development &amp;amp; Design Tools&lt;/a&gt; Nice post by our fellow “senior camper” Danny Fritz. Went through all the links, some really nice finds!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://bahmutov.calepin.co/avoid-side-effects-with-immutable-data-structures.html&quot;&gt;Avoid Side Effects with Immutable Data Structures&lt;/a&gt; The title says it all. Recommended reading.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://kritzcreek.github.io/tutorial/2015/03/31/apps-with-purescript-and-react-1/&quot;&gt;Building Apps with PureScript and React&lt;/a&gt; by a fellow camper, I’m really looking forward to see the rest of this series.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://chargen.matasano.com/chargen/2015/3/26/enough-with-the-salts-updates-on-secure-password-schemes.html&quot;&gt;Enough With the Salts: Updates on Secure Password Schemes&lt;/a&gt; Good read on password schemes.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.risingstack.com/shipping-node-js-applications-with-docker-and-codeship/&quot;&gt;Shipping Node.js Applications with Docker and Codeship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;backbone-js-resources&quot;&gt;Backbone.js Resources&lt;/h4&gt;
+&lt;p&gt;This last week was all about Backbone, and here’s the best resources I’ve found (plus the books and Tutsplus courses)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.openmindedinnovations.com/blogs/backbone-react-sortable-table&quot;&gt;Backbone React Sortable Table&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://leoasis.github.io/posts/2014/03/22/from_backbone_views_to_react/&quot;&gt;From Backbone Views to React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://clayallsopp.com/posts/from-backbone-to-react/&quot;&gt;Moving from Backbone to React&lt;/a&gt; See a pattern?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=9286410&quot;&gt;Why Backbone Resources seem to be outdated?&lt;/a&gt; A question I posted in HN&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ozytive.com/2015/03/23/what-is-backbone-js/&quot;&gt;What is Backbone.js?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://javascriptissexy.com/learn-backbone-js-completely/&quot;&gt;Learn Backbone.js completely&lt;/a&gt; a bit outdated but good reference.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lostechies.com/derickbailey/2011/09/15/zombies-run-managing-page-transitions-in-backbone-apps/&quot;&gt;Zombies! RUN! Managing Page Transitions In Backbone Apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jashkenas/backbone/wiki/Tutorials%2C-blog-posts-and-example-sites&quot;&gt;Backbone Resources&lt;/a&gt; Mother lode of Backbone resources&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://product.hubspot.com/blog/moving-backbone-to-flux-react&quot;&gt;Relieving Backbone Pain with Flux &amp;amp; React&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;finding-a-job&quot;&gt;Finding a Job&lt;/h4&gt;
+&lt;p&gt;My last batch of resources is about finding a job. It’s a hard process and harder if you are planning on moving to another country or finding a remote job.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://tonyfreed.com/blog/top_javascript_interview_question_2015&quot;&gt;Top JavaScript (ES5) Interview Question&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.remoteworknewsletter.com/2015/03/23/best-sources-to-find-a-remote-job-as-a-software-developer/&quot;&gt;Best Sources To Find A Remote Job As A Software Developer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.youtern.com/thesavvyintern/index.php/2015/03/20/5-signs-your-resume-isnt-ready-for-todays-job-search/&quot;&gt;5 Signs Your Resume Isn’t Ready for Today’s Job Search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://bigocheatsheet.com/&quot;&gt;Big-O Cheat Sheet&lt;/a&gt; not only to cheat, but also to learn.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.payscale.com/research/US/Job=Web_Developer/Salary&quot;&gt;Web Developer Salaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://qz.com/371714/the-best-and-cheapest-places-in-the-world-for-coworking/&quot;&gt;The best (and cheapest) places in the world for coworking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://money.cnn.com/calculator/pf/cost-of-living/&quot;&gt;Cost of living calculator&lt;/a&gt; Good to compare an equivalent salary between different states.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;more-resources&quot;&gt;More Resources&lt;/h4&gt;
+&lt;p&gt;If you are looking for more JavaScript learning resources, check my &lt;a href=&quot;http://crisberrios.github.io/articles/the-road-so-far/&quot;&gt;Road So Far&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;That’s it for this week, happy easter and happy learning!&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Kopernik, my First Nonprofit Experience at FreeCodeCamp</title>
       <link>http://crisberrios.github.io/articles/kopernik-first-nonprofit-experience-at-freecodecamp/</link>
-      <pubDate>Mon, 30 Mar 2015 18:00:00 -0600</pubDate>
+      <pubDate>Mon, 30 Mar 2015 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://crisberrios.github.io/articles/kopernik-first-nonprofit-experience-at-freecodecamp/</guid>
       <author></author>
       <description>&lt;p&gt;A few days ago, we marked our first nonprofit project at &lt;a href=&quot;http://www.freecodecamp.com&quot;&gt;FreeCodeCamp&lt;/a&gt; as &lt;em&gt;shipped&lt;/em&gt;. It was a big milestone (for us and FCC as its first delivered project) and I feel very happy for being able to deliver a working piece of software, but also because the experience has been great and a first on my career. Kopernik has opened my eyes about how technology, even in its simplest forms, can impact the lives of thousands of people, and how we can be part of it.&lt;/p&gt;
@@ -55,7 +118,7 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
     <item>
       <title>From Complex Frameworks to Simple Workflows</title>
       <link>http://crisberrios.github.io/articles/from-complex-frameworks-to-simple-workflows/</link>
-      <pubDate>Sat, 21 Mar 2015 18:00:00 -0600</pubDate>
+      <pubDate>Sat, 21 Mar 2015 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://crisberrios.github.io/articles/from-complex-frameworks-to-simple-workflows/</guid>
       <author></author>
       <description>&lt;p&gt;This week, I had the opportunity to work in a small personal project: a simple, static website for a family member (someone said portfolio?). I’ve done some sites like this in the past, but I wanted to apply some of my recently acquired WebDev-fu, and this proved to be quite harder than it seemed.&lt;/p&gt;
@@ -87,7 +150,7 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
     <item>
       <title>The Road So Far</title>
       <link>http://crisberrios.github.io/articles/the-road-so-far/</link>
-      <pubDate>Sat, 14 Mar 2015 18:00:00 -0600</pubDate>
+      <pubDate>Sat, 14 Mar 2015 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://crisberrios.github.io/articles/the-road-so-far/</guid>
       <author></author>
       <description>&lt;p&gt;In the last weeks, I’ve been asked a few times to document a bit more my journey into web development, so I’m writing this post as a general guide/track that I hope might prove useful, in special to those who are following &lt;a href=&quot;http://www.freecodecamp.com&quot;&gt;FreeCodeCamp&lt;/a&gt;‘s curriculum.&lt;/p&gt;
@@ -161,7 +224,7 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
     <item>
       <title>7 days with jQuery</title>
       <link>http://crisberrios.github.io/articles/jquery-week/</link>
-      <pubDate>Sat, 07 Mar 2015 18:00:00 -0600</pubDate>
+      <pubDate>Sat, 07 Mar 2015 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://crisberrios.github.io/articles/jquery-week/</guid>
       <author></author>
       <description>&lt;p&gt;Last week, I came (again) to the realization that my online portfolio was null, zero, &lt;em&gt;void 0&lt;/em&gt;, nada, so I decided to challenge myself and commit one little project each day during 7 days using a versatile, widely used and easy to learn library that I’ve never explored before starting &lt;a href=&quot;http://www.freecodecamp.com&quot;&gt;FreeCodeCamp&lt;/a&gt;. That library is, of course, &lt;strong&gt;jQuery&lt;/strong&gt;.&lt;/p&gt;
@@ -188,7 +251,7 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
     <item>
       <title>Recap</title>
       <link>http://crisberrios.github.io/articles/recap/</link>
-      <pubDate>Tue, 10 Feb 2015 18:00:00 -0600</pubDate>
+      <pubDate>Tue, 10 Feb 2015 19:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://crisberrios.github.io/articles/recap/</guid>
       <author></author>
       <description>&lt;p&gt;So here I am. Living in the outskirts of Mexico City while learning how to &lt;em&gt;properly&lt;/em&gt; code and become a full stack web developer with the help of &lt;a href=&quot;https://www.freecodecamp.org&quot;&gt;Free Code Camp&lt;/a&gt; online bootcamp. On this first post, I’ll tell you the story of why I decided to switch careers.&lt;/p&gt;
