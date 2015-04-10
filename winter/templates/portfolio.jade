@@ -1,0 +1,43 @@
+extends layout
+block content
+  .hero
+    .hero-inner
+      .hero-copy.hero-portfolio
+        h1 Portfolio
+        p
+          | A small sample of my web development work and experiments.
+        p
+          | Don't forget to check my
+          a(href="http://codepen.io/crisberrios/")= ' Codepen '
+          | and
+          a(href="http://www.github.com/crisberrios")= ' Githhub '
+          | profiles for more projects and samples.
+  section.main
+    .cards
+      .card
+        .card-image
+          img(src='/img/kopernik.png', alt='Kopernik')
+        .card-header
+          | Kopernik's Wonder Women Initiative
+        .card-copy
+          p
+            | Data capture solution with offline capabilities for use in remote regions of Indonesia. You can see more information in
+            a(href="http://blog.freecodecamp.com/2015/04/kopernik-retrospective-my-first-nonprofit-project-at-free-code-camp.html")= ' This Post'
+      .card
+        .card-image
+          img(src='/img/webdevnews.jpg', alt='WebDevNews')
+        .card-header
+          | WebDevNews
+        .card-copy
+          p
+            | A Reddit-like, real-time social news site using React components and Firebase backend with authentication. In progress. Visit the
+            a(href="https://blazing-fire-230.firebaseapp.com/")= ' Demo'
+            | .
+      .card
+        .card-image
+          img(src='https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png', alt='')
+        .card-header
+          | The Last Card
+        .card-copy
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
