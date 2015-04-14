@@ -9,6 +9,42 @@
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
+      <title>Improve your Coding Skills Like If You Had Superpowers</title>
+      <link>http://crisberrios.github.io/articles/improve-your-coding-skills-anime/</link>
+      <pubDate>Tue, 14 Apr 2015 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://crisberrios.github.io/articles/improve-your-coding-skills-anime/</guid>
+      <author></author>
+      <description>&lt;p&gt;Today I’ll teach you about a &lt;strong&gt;&lt;em&gt;millenary training technique&lt;/em&gt;&lt;/strong&gt; I learned while watching a japanese series named &lt;strong&gt;“Hunter x Hunter”&lt;/strong&gt;, which I’m using to assign my study time between different developer topics and improve my skills.&lt;/p&gt;
+&lt;h2 id=&quot;the-basics-of-nen&quot;&gt;The Basics of Nen&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/nen1.png&quot; alt=&quot;Nen Chart&quot;&gt;&lt;/p&gt;
+&lt;p&gt;First of all, &lt;strong&gt;Hunter x Hunter&lt;/strong&gt; is a japanese animated series (Anime) about people that fight a lot and have superpowers, and that’s all you need to know about it. What’s important to us is the &lt;strong&gt;theory&lt;/strong&gt; behind their superpowers, which I’m sure they copied from some ancient chinese tradition, as they always do.&lt;/p&gt;
+&lt;p&gt;In the series, the &lt;strong&gt;(Nen)&lt;/strong&gt; (energy) users can train &lt;strong&gt;6 types of abilities&lt;/strong&gt; depending mainly on their natural talents. These types are represented in the hexagonal chart above and you can get a general idea of what each type does.&lt;/p&gt;
+&lt;p&gt;Also, in the series, they propose that &lt;strong&gt;opposite types in the chart can’t be mastered&lt;/strong&gt;, but learning them will &lt;strong&gt;greatly benefit&lt;/strong&gt; your &lt;strong&gt;main skill&lt;/strong&gt;. It also proposes that types &lt;strong&gt;next to each other&lt;/strong&gt; are more &lt;strong&gt;closely related&lt;/strong&gt; and will be &lt;strong&gt;easier to get to a similar level.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What happens if we apply the concepts to developer training?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;enter-coder-s-nen&quot;&gt;Enter Coder’s Nen&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/codernen.png&quot; alt=&quot;Coder&amp;#39;s Nen&quot;&gt;
+ 
+Following the concepts from the previous chart, I made a &lt;strong&gt;coder’s version&lt;/strong&gt; covering what I think are the &lt;strong&gt;core skills&lt;/strong&gt; for becoming a &lt;strong&gt;good developer&lt;/strong&gt;. In this version, however, you are not limited to mastering a single concept, but I tried to place the topics in the best way possible so the closest ones (connecting lines) are more related and the opposite ones are topics that don’t depend on each other.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Now, how does this work?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;area-and-high-skills&quot;&gt;Area and High Skills&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/crisnen.png&quot; alt=&quot;My Coder&amp;#39;s Nen&quot;&gt;&lt;/p&gt;
+&lt;p&gt;If you place a &lt;strong&gt;point between the center of the hexagon and the type of skill&lt;/strong&gt; being measured, with &lt;strong&gt;center representing 0%&lt;/strong&gt; (you don’t know anything about that) and &lt;strong&gt;100% being the point in the hexagon&lt;/strong&gt;, and then you &lt;strong&gt;connect all the points&lt;/strong&gt;, you get a &lt;strong&gt;polygon&lt;/strong&gt; (or line) with the &lt;strong&gt;area representing your “core” value as developer.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the chart above, I put what I think represents my &lt;strong&gt;current status as developer&lt;/strong&gt;. It doesn’t seem much, but if you consider that 100% in Computer Science would be &lt;strong&gt;Donald Knuth&lt;/strong&gt; and 100% in Software Engineering would be &lt;strong&gt;Bill Gates&lt;/strong&gt;, then it might be even less.&lt;/p&gt;
+&lt;p&gt;Another way to achieve mastery is focusing only in a main topic and the next ones to it. That would make you a specialist, guru or teacher in certain topic, without necessarily making you lose value because the lesser area being covered.&lt;/p&gt;
+&lt;p&gt;For the purpose of “becoming a software developer” though, the area approach is better.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Now… How do I use this as a guide?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;chart-as-a-guide-for-improving-your-skills&quot;&gt;Chart as a Guide for Improving your Skills&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/crisnen2.png&quot; alt=&quot;My current goal&quot;&gt;&lt;/p&gt;
+&lt;p&gt;When you ask yourself, “What should I learn next?” Just &lt;strong&gt;draw the chart&lt;/strong&gt;, assign values representing at what level you think you are in certain topic and see what skill you want to learn that will also &lt;strong&gt;maximizes the chart area being covered&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In my case, looking at the chart shows I’m &lt;strong&gt;kind of&lt;/strong&gt; weak in “Computer Science” as I studied Electronics Engineering (which also improves my &lt;em&gt;Programming Languages&lt;/em&gt; score), so I’m going through some nice books and resources on &lt;strong&gt;Algorithms&lt;/strong&gt; and &lt;strong&gt;Data Structures&lt;/strong&gt;. Note that improving “Computer Science” just a little has a big impact in the area being covered, and will also help with “Programming languages” and “DevOps”, as much of it has to do with data structures, reasoning and algorithms.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Having a good knowledge in all the chart areas will greatly improve your overall value as developer and (in my opinion) employability.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/crisnen3.png&quot; alt=&quot;Projections&quot;&gt;&lt;/p&gt;
+&lt;p&gt;To finish this entry, the last chart reflects my projections for when I “graduate” from FreeCodeCamp, which would also reflect at least the knowledge needed (in total chart area) for a junior-to-mid level developer position (that’s the idea of a Bootcamp right?).&lt;/p&gt;
+&lt;p&gt;So… &lt;strong&gt;what will you learn today?&lt;/strong&gt; Draw the chart and improve your &lt;strong&gt;Coder’s Nen!!&lt;/strong&gt; (I should really make an app).&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Journey Update and JavaScript Resources</title>
       <link>http://crisberrios.github.io/articles/journey-update-and-javascript-resources/</link>
       <pubDate>Tue, 14 Apr 2015 19:00:00 -0500</pubDate>
