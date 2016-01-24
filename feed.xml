@@ -15,30 +15,30 @@
       <guid isPermaLink="true">http://crisberrios.github.io/articles/improve-your-coding-skills-anime/</guid>
       <author></author>
       <description>&lt;p&gt;Today I’ll teach you about a &lt;strong&gt;&lt;em&gt;millenary training technique&lt;/em&gt;&lt;/strong&gt; I learned while watching a japanese series named &lt;strong&gt;“Hunter x Hunter”&lt;/strong&gt;, which I’m using to assign my study time between different developer topics and improve my skills.&lt;/p&gt;
-&lt;h2 id=&quot;the-basics-of-nen&quot;&gt;The Basics of Nen&lt;/h2&gt;
+&lt;p&gt;##The Basics of Nen&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/nen1.png&quot; alt=&quot;Nen Chart&quot;&gt;&lt;/p&gt;
 &lt;p&gt;First of all, &lt;strong&gt;Hunter x Hunter&lt;/strong&gt; is a japanese animated series (Anime) about people that fight a lot and have superpowers, and that’s all you need to know about it. What’s important to us is the &lt;strong&gt;theory&lt;/strong&gt; behind their superpowers, which I’m sure they copied from some ancient chinese tradition, as they always do.&lt;/p&gt;
 &lt;p&gt;In the series, the &lt;strong&gt;(Nen)&lt;/strong&gt; (energy) users can train &lt;strong&gt;6 types of abilities&lt;/strong&gt; depending mainly on their natural talents. These types are represented in the hexagonal chart above and you can get a general idea of what each type does.&lt;/p&gt;
 &lt;p&gt;Also, in the series, they propose that &lt;strong&gt;opposite types in the chart can’t be mastered&lt;/strong&gt;, but learning them will &lt;strong&gt;greatly benefit&lt;/strong&gt; your &lt;strong&gt;main skill&lt;/strong&gt;. It also proposes that types &lt;strong&gt;next to each other&lt;/strong&gt; are more &lt;strong&gt;closely related&lt;/strong&gt; and will be &lt;strong&gt;easier to get to a similar level.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What happens if we apply the concepts to developer training?&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;enter-coder-s-nen&quot;&gt;Enter Coder’s Nen&lt;/h2&gt;
+&lt;p&gt;##Enter Coder’s Nen&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/codernen.png&quot; alt=&quot;Coder&amp;#39;s Nen&quot;&gt;
  
 Following the concepts from the previous chart, I made a &lt;strong&gt;coder’s version&lt;/strong&gt; covering what I think are the &lt;strong&gt;core skills&lt;/strong&gt; for becoming a &lt;strong&gt;good developer&lt;/strong&gt;. In this version, however, you are not limited to mastering a single concept, but I tried to place the topics in the best way possible so the closest ones (connecting lines) are more related and the opposite ones are topics that don’t depend on each other.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Now, how does this work?&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;area-and-high-skills&quot;&gt;Area and High Skills&lt;/h2&gt;
+&lt;p&gt;##Area and High Skills &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/crisnen.png&quot; alt=&quot;My Coder&amp;#39;s Nen&quot;&gt;&lt;/p&gt;
 &lt;p&gt;If you place a &lt;strong&gt;point between the center of the hexagon and the type of skill&lt;/strong&gt; being measured, with &lt;strong&gt;center representing 0%&lt;/strong&gt; (you don’t know anything about that) and &lt;strong&gt;100% being the point in the hexagon&lt;/strong&gt;, and then you &lt;strong&gt;connect all the points&lt;/strong&gt;, you get a &lt;strong&gt;polygon&lt;/strong&gt; (or line) with the &lt;strong&gt;area representing your “core” value as developer.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;In the chart above, I put what I think represents my &lt;strong&gt;current status as developer&lt;/strong&gt;. It doesn’t seem much, but if you consider that 100% in Computer Science would be &lt;strong&gt;Donald Knuth&lt;/strong&gt; and 100% in Software Engineering would be &lt;strong&gt;Bill Gates&lt;/strong&gt;, then it might be even less.&lt;/p&gt;
 &lt;p&gt;Another way to achieve mastery is focusing only in a main topic and the next ones to it. That would make you a specialist, guru or teacher in certain topic, without necessarily making you lose value because the lesser area being covered.&lt;/p&gt;
 &lt;p&gt;For the purpose of “becoming a software developer” though, the area approach is better.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Now… How do I use this as a guide?&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;chart-as-a-guide-for-improving-your-skills&quot;&gt;Chart as a Guide for Improving your Skills&lt;/h2&gt;
+&lt;p&gt;##Chart as a Guide for Improving your Skills&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/crisnen2.png&quot; alt=&quot;My current goal&quot;&gt;&lt;/p&gt;
 &lt;p&gt;When you ask yourself, “What should I learn next?” Just &lt;strong&gt;draw the chart&lt;/strong&gt;, assign values representing at what level you think you are in certain topic and see what skill you want to learn that will also &lt;strong&gt;maximizes the chart area being covered&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;In my case, looking at the chart shows I’m &lt;strong&gt;kind of&lt;/strong&gt; weak in “Computer Science” as I studied Electronics Engineering (which also improves my &lt;em&gt;Programming Languages&lt;/em&gt; score), so I’m going through some nice books and resources on &lt;strong&gt;Algorithms&lt;/strong&gt; and &lt;strong&gt;Data Structures&lt;/strong&gt;. Note that improving “Computer Science” just a little has a big impact in the area being covered, and will also help with “Programming languages” and “DevOps”, as much of it has to do with data structures, reasoning and algorithms.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Having a good knowledge in all the chart areas will greatly improve your overall value as developer and (in my opinion) employability.&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;##Final thoughts&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/improve-your-coding-skills-anime/crisnen3.png&quot; alt=&quot;Projections&quot;&gt;&lt;/p&gt;
 &lt;p&gt;To finish this entry, the last chart reflects my projections for when I “graduate” from FreeCodeCamp, which would also reflect at least the knowledge needed (in total chart area) for a junior-to-mid level developer position (that’s the idea of a Bootcamp right?).&lt;/p&gt;
 &lt;p&gt;So… &lt;strong&gt;what will you learn today?&lt;/strong&gt; Draw the chart and improve your &lt;strong&gt;Coder’s Nen!!&lt;/strong&gt; (I should really make an app).&lt;/p&gt;
@@ -51,25 +51,25 @@ Following the concepts from the previous chart, I made a &lt;strong&gt;coder’s
       <guid isPermaLink="true">http://crisberrios.github.io/articles/journey-update-and-javascript-resources/</guid>
       <author></author>
       <description>&lt;p&gt;This week, I hit a milestone in my journey as we &lt;a href=&quot;http://crisberrios.github.io/articles/kopernik-first-nonprofit-experience-at-freecodecamp/&quot;&gt;finished our first nonprofit project&lt;/a&gt; at FCC. So, until the next project arrives the study goes on, and here’s a recap of what I’ve learned this past two weeks.&lt;/p&gt;
-&lt;h2 id=&quot;focus-switch&quot;&gt;Focus Switch&lt;/h2&gt;
+&lt;p&gt;##Focus Switch&lt;/p&gt;
 &lt;p&gt;Since I’ve been getting a little more confident with my JavaScript skills, I started moving from a 100% pure JavaScript approach to learning some practical skills alongside JS. Nonetheless, it’s still about 40% pure JS and 60% other things including frameworks, which are (mostly) 100% JS, so JS is still a big part of my daily study. I’ve also started doing some personal projects: there’s a small static site I’m building for a family member (which in turn helped me &lt;a href=&quot;https://github.com/crisberrios/static-starter&quot;&gt;streamline my frontend workflow&lt;/a&gt;) and another small CRUD project using React and Backbone.&lt;/p&gt;
-&lt;h2 id=&quot;resources-ahoy-&quot;&gt;Resources ahoy!&lt;/h2&gt;
+&lt;p&gt;##Resources ahoy!&lt;/p&gt;
 &lt;p&gt;To keep the post short, here’s a compilation of the best resources I’ve read and watched this past 2 weeks:&lt;/p&gt;
-&lt;h4 id=&quot;books&quot;&gt;Books&lt;/h4&gt;
+&lt;p&gt;####Books&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/getify/You-Dont-Know-JS/tree/master/scope%20%26%20closures&quot;&gt;You Don’t Know JS: Scope &amp;amp; Closures&lt;/a&gt; This book series is awesome and I’m looking forward to reading the rest of the series.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://addyosmani.github.io/backbone-fundamentals/&quot;&gt;Developing Backbone.js Applications&lt;/a&gt; This book by Addy Osmani is very good to start learning Backbone, and also free online.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.packtpub.com/web-development/backbonejs-blueprints&quot;&gt;Backbone.js Blueprints&lt;/a&gt; free with a Tutsplus subscription, it’s also very good since it guides you through many projects using Backbone.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://jcouyang.gitbooks.io/functional-javascript/content/en/index.html&quot;&gt;Functional JavaScript&lt;/a&gt; a small book with good content about functional JavaScript.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;courses&quot;&gt;Courses&lt;/h4&gt;
+&lt;p&gt;####Courses&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/introduction-typescript-microsoft-dev201x&quot;&gt;Introduction to TypeScript&lt;/a&gt; Free from Microsoft, why not?&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://university.mongodb.com/courses/M101JS/about&quot;&gt;MongoDB for Node.js Developers&lt;/a&gt; Very good, verified and free. A must for new JS developers&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://code.tutsplus.com/courses/getting-started-with-backbone&quot;&gt;Getting Started with Backbone.js&lt;/a&gt; the most updated introductory course to Backbone.js. A bit condensed but great after reading Addy’s book.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://code.tutsplus.com/courses/getting-started-with-reactjs&quot;&gt;Getting Started with React.js&lt;/a&gt; A very good intro to React.js&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;blog-posts&quot;&gt;Blog posts&lt;/h4&gt;
+&lt;p&gt;####Blog posts&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://raganwald.com/2015/03/12/symmetry.html&quot;&gt;The Symmetry of JavaScript Functions&lt;/a&gt; by Ragan Wald. No need to say anything else.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://dannyfritz.wordpress.com/2015/02/03/web-development-design-tools-january-2015/&quot;&gt;Web Development &amp;amp; Design Tools&lt;/a&gt; Nice post by our fellow “senior camper” Danny Fritz. Went through all the links, some really nice finds!&lt;/li&gt;
@@ -78,7 +78,7 @@ Following the concepts from the previous chart, I made a &lt;strong&gt;coder’s
 &lt;li&gt;&lt;a href=&quot;http://chargen.matasano.com/chargen/2015/3/26/enough-with-the-salts-updates-on-secure-password-schemes.html&quot;&gt;Enough With the Salts: Updates on Secure Password Schemes&lt;/a&gt; Good read on password schemes.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://blog.risingstack.com/shipping-node-js-applications-with-docker-and-codeship/&quot;&gt;Shipping Node.js Applications with Docker and Codeship&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;backbone-js-resources&quot;&gt;Backbone.js Resources&lt;/h4&gt;
+&lt;p&gt;####Backbone.js Resources&lt;/p&gt;
 &lt;p&gt;This last week was all about Backbone, and here’s the best resources I’ve found (plus the books and Tutsplus courses)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.openmindedinnovations.com/blogs/backbone-react-sortable-table&quot;&gt;Backbone React Sortable Table&lt;/a&gt;&lt;/li&gt;
@@ -91,7 +91,7 @@ Following the concepts from the previous chart, I made a &lt;strong&gt;coder’s
 &lt;li&gt;&lt;a href=&quot;https://github.com/jashkenas/backbone/wiki/Tutorials%2C-blog-posts-and-example-sites&quot;&gt;Backbone Resources&lt;/a&gt; Mother lode of Backbone resources&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://product.hubspot.com/blog/moving-backbone-to-flux-react&quot;&gt;Relieving Backbone Pain with Flux &amp;amp; React&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;finding-a-job&quot;&gt;Finding a Job&lt;/h4&gt;
+&lt;p&gt;####Finding a Job&lt;/p&gt;
 &lt;p&gt;My last batch of resources is about finding a job. It’s a hard process and harder if you are planning on moving to another country or finding a remote job.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://tonyfreed.com/blog/top_javascript_interview_question_2015&quot;&gt;Top JavaScript (ES5) Interview Question&lt;/a&gt;&lt;/li&gt;
@@ -102,7 +102,7 @@ Following the concepts from the previous chart, I made a &lt;strong&gt;coder’s
 &lt;li&gt;&lt;a href=&quot;http://qz.com/371714/the-best-and-cheapest-places-in-the-world-for-coworking/&quot;&gt;The best (and cheapest) places in the world for coworking&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://money.cnn.com/calculator/pf/cost-of-living/&quot;&gt;Cost of living calculator&lt;/a&gt; Good to compare an equivalent salary between different states.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;more-resources&quot;&gt;More Resources&lt;/h4&gt;
+&lt;p&gt;####More Resources&lt;/p&gt;
 &lt;p&gt;If you are looking for more JavaScript learning resources, check my &lt;a href=&quot;http://crisberrios.github.io/articles/the-road-so-far/&quot;&gt;Road So Far&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;That’s it for this week, happy easter and happy learning!&lt;/p&gt;
 </description>
@@ -114,29 +114,29 @@ Following the concepts from the previous chart, I made a &lt;strong&gt;coder’s
       <guid isPermaLink="true">http://crisberrios.github.io/articles/kopernik-first-nonprofit-experience-at-freecodecamp/</guid>
       <author></author>
       <description>&lt;p&gt;A few days ago, we marked our first nonprofit project at &lt;a href=&quot;http://www.freecodecamp.com&quot;&gt;FreeCodeCamp&lt;/a&gt; as &lt;em&gt;shipped&lt;/em&gt;. It was a big milestone (for us and FCC as its first delivered project) and I feel very happy for being able to deliver a working piece of software, but also because the experience has been great and a first on my career. Kopernik has opened my eyes about how technology, even in its simplest forms, can impact the lives of thousands of people, and how we can be part of it.&lt;/p&gt;
-&lt;h2 id=&quot;freecodecamp&quot;&gt;FreeCodeCamp&lt;/h2&gt;
+&lt;p&gt;##FreeCodeCamp&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/kopernik-first-nonprofit-experience-at-freecodecamp/fcc.png&quot; alt=&quot;FreeCodeCamp&quot;&gt;&lt;/p&gt;
 &lt;p&gt;First, I’ll do a very, very short review of what FreeCodeCamp does:&lt;/p&gt;
 &lt;p&gt;FCC is a &lt;strong&gt;free&lt;/strong&gt;, online &lt;strong&gt;bootcamp&lt;/strong&gt; for aspiring web developers, focused on the &lt;em&gt;MEAN&lt;/em&gt; stack, and the curriculum has two parts. The first being different free courses found all over the web (soon to be in-house), corresponding to roughly 100 hours, and the second part is making real world projects for nonprofits, which accounts for, also roughly, 900 hours. This way, both &lt;strong&gt;&lt;em&gt;campers&lt;/em&gt;&lt;/strong&gt; and nonprofits benefit from the projects, and there’s no money involved in the process. It’s a win/win for everyone.&lt;/p&gt;
-&lt;h2 id=&quot;kopernik-serving-the-last-mile&quot;&gt;Kopernik, Serving the Last Mile&lt;/h2&gt;
+&lt;p&gt;##Kopernik, Serving the Last Mile&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/kopernik-first-nonprofit-experience-at-freecodecamp/kopernik.png&quot; alt=&quot;Kopernik&quot;&gt;
  
 After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum) I got assigned to a project &lt;strong&gt;&lt;strong&gt;(yay!)&lt;/strong&gt;&lt;/strong&gt; along with other fellow &lt;em&gt;camper&lt;/em&gt;, Alex. Our project was for a nonprofit called &lt;a href=&quot;http://kopernik.info&quot;&gt;Kopernik&lt;/a&gt;, with operations in many countries of Asia, but in this case it was for the Indonesian branch. What &lt;strong&gt;Kopernik&lt;/strong&gt; does is to bring clean technologies to very poor and remote regions of eastern Indonesia, helping women and their families improve their lives and empower them with a business. You can find more watching &lt;a href=&quot;https://www.youtube.com/watch?v=1-uLP1iep6E&quot;&gt;this video&lt;/a&gt;.&lt;/p&gt;
-&lt;h4 id=&quot;the-problem&quot;&gt;The problem&lt;/h4&gt;
+&lt;p&gt;####The problem&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;For Kopernik to measure the impact of this project and improve our project methodology, we need to record sales data from our agents as well as some data about the end users of the technologies. Later, we interview end users to determine to what extent the technology has improved their lives.&lt;/p&gt;
 &lt;p&gt;However, our sales agents and area coordinators work in regions where access to the internet is limited, unreliable and slow. Users generally have minimal experience with computers and devices. Sales data is gathered from our agents using paper receipts, but getting that data into a format that Kopernik can use create meaningful reports is a complicated process.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;As you can see, this project posed many challenges, including inexperienced end-users and adverse conditions for a web app. Ultimately, this problem translated into a data capture app that was able to work offline with automatic uploading when a connection was available, since in the regions described it can go out for weeks. This had us researching a few days before we decided to go with a &lt;strong&gt;Chrome extension&lt;/strong&gt;, so we could leverage Chrome local storage and have background services running. We also chose it because a web browser is a familiar interface and enabled us to do automatic updates using the app store. Once this was decided, we were ready to start coding.&lt;/p&gt;
-&lt;h2 id=&quot;amber-our-mvp-stakeholder&quot;&gt;Amber, our MVP Stakeholder&lt;/h2&gt;
+&lt;p&gt;##Amber, our MVP Stakeholder&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/kopernik-first-nonprofit-experience-at-freecodecamp/mvp.gif&quot; alt=&quot;MVP&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Our biggest advantage while doing the project was having &lt;strong&gt;Amber&lt;/strong&gt; (@amberau at Gitter) as our stakeholder. For starters, she was &lt;strong&gt;super&lt;/strong&gt; excited with the project and offered us all the help we needed. She was prompt to get us all the fonts, graphics, requirements, translations and accounts needed as we were making progress. Also, she was very proactive in promoting the project to her colleagues, so we could get as much feedback as possible.&lt;/p&gt;
 &lt;p&gt;Additionally, Amber is a web/software developer with many years of experience, and she was very quick to pinpoint bugs and usability problems. This helped us move forward and ultimately deliver a better app. Furthermore, she always made us feel like a part of Kopernik itself, and we were really happy knowing that this project was going to help their cause. It made me really hope I could work for a nonprofit like this full-time in the future.&lt;/p&gt;
-&lt;h2 id=&quot;challenges-and-teachings&quot;&gt;Challenges and Teachings&lt;/h2&gt;
+&lt;p&gt;##Challenges and Teachings&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/kopernik-first-nonprofit-experience-at-freecodecamp/learning.gif&quot; alt=&quot;Learning&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Of course, one of the ideas of doing a real world project is to have the opportunity of learning and put to practice all the things learned while doing the challenges. On this context, it helped me a lot improving my HTML and CSS skills, since the form itself is very custom in its format. Trying to get the layout right wasn’t so easy as we thought initially. It also helped me a lot understanding some UX concepts, as we added many visual features and and did many modifications while the project moved forward. Some evenings were spent just reading docs, but the rewards are worth it.&lt;/p&gt;
 &lt;p&gt;About the challenges we faced, I’d say that more than code-related problems that happen all the time on every project, the big challenge was getting in sync with my partner, as some tasks were interdependent and doing &lt;strong&gt;git merge&lt;/strong&gt; sometimes didn’t have the expected result. I also missed pairing a bit more, to be more aligned about what we were doing. But I think that experience also helped us define in a better way the tasks that were being assigned and segment the code so it was easier to work in parallel, a real need in every project in which more than 1 developer is involved.&lt;/p&gt;
-&lt;h2 id=&quot;the-project&quot;&gt;The Project&lt;/h2&gt;
+&lt;p&gt;##The Project&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/kopernik-first-nonprofit-experience-at-freecodecamp/form.jpg&quot; alt=&quot;Kopernik&quot;&gt;&lt;/p&gt;
 &lt;p&gt;The project consisted of two sub-projects: a frontend app, in the form of a &lt;strong&gt;Chrome extension&lt;/strong&gt;, and a Backend app, which exposes an API endpoint for receiving data sent from the form app.&lt;/p&gt;
 &lt;p&gt;On the frontend side, there’s the form, using normal HTML and CSS (no pre-processors), a script for handling network status and transmission of the data, another script for handling storage functions using &lt;strong&gt;Chrome local storage&lt;/strong&gt; API and another script for handling form interactivity and validation. The only &lt;strong&gt;dependency&lt;/strong&gt; used was &lt;strong&gt;jQuery 2.1.3&lt;/strong&gt; for handling selectors, visual feedback and Ajax.&lt;/p&gt;
@@ -145,7 +145,7 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
 &lt;p&gt;The app itself runs on &lt;strong&gt;Heroku&lt;/strong&gt;, and the deployment is handled by &lt;strong&gt;Wercker&lt;/strong&gt;, which adds test capabilities (not used yet) to the build and decouples the source repo with Heroku app repo. An additional tool used was adding &lt;strong&gt;New Relic&lt;/strong&gt; (free tier) for performance and downtime monitoring.&lt;/p&gt;
 &lt;p&gt;The source code will be available soon once we make sure no references to the production servers are found in the code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; we used all the things in bold in our project.&lt;/p&gt;
-&lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
+&lt;p&gt;##Final Thoughts&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/kopernik-first-nonprofit-experience-at-freecodecamp/using_app.jpg&quot; alt=&quot;girl using the app&quot;&gt;&lt;/p&gt;
 &lt;p&gt;It really fills me with joy being able to be this far with the project and with &lt;strong&gt;FreeCodeCamp&lt;/strong&gt;. Working with &lt;strong&gt;Kopernik&lt;/strong&gt; has been one of my best experience doing a project and I really hope it can help the foundation improve their logistics and reach. Certainly, I want to keep improving the app and adding more features as needed, though I know I’m not required to do so.&lt;/p&gt;
 &lt;p&gt;I also want to thank &lt;strong&gt;Michael&lt;/strong&gt; and &lt;strong&gt;Quincy&lt;/strong&gt; for giving us the opportunity of doing projects like this and making FCC better everyday. Lastly, I think that doing projects like this will, undoubtedly, help anyone pursuing a career in web development improve their chances of landing a job in the future, and made me reaffirm I’m on a good path too being a part of this bootcamp. Now, on to the &lt;strong&gt;next project&lt;/strong&gt;.&lt;/p&gt;
@@ -158,26 +158,26 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
       <guid isPermaLink="true">http://crisberrios.github.io/articles/from-complex-frameworks-to-simple-workflows/</guid>
       <author></author>
       <description>&lt;p&gt;This week, I had the opportunity to work in a small personal project: a simple, static website for a family member (someone said portfolio?). I’ve done some sites like this in the past, but I wanted to apply some of my recently acquired WebDev-fu, and this proved to be quite harder than it seemed.&lt;/p&gt;
-&lt;h2 id=&quot;bringing-a-gun-to-a-knife-fight&quot;&gt;Bringing a Gun to a Knife Fight&lt;/h2&gt;
+&lt;p&gt;##Bringing a Gun to a Knife Fight&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/from-complex-frameworks-to-simple-workflows/gunknife.gif&quot; alt=&quot;Bringing a Gun to a Knife Fight&quot;&gt;&lt;/p&gt;
 &lt;p&gt;My natural reaction was trying to use the &lt;strong&gt;stack&lt;/strong&gt; I’m learning, which is &lt;strong&gt;MEAN&lt;/strong&gt; (minus the A), but since it’s was a static site, MongoDB wasn’t really a useful tool on this scenario, and my &lt;em&gt;client&lt;/em&gt; already has a hosting account, so no E and N either. What does that leave? Focusing on the frontend as much as possible. and since it’s only a &lt;em&gt;relatively&lt;/em&gt; small business website, no MEAN for me this time.&lt;/p&gt;
-&lt;h2 id=&quot;framweworks-and-going-minimal&quot;&gt;Framweworks and Going Minimal&lt;/h2&gt;
+&lt;p&gt;##Framweworks and Going Minimal&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/from-complex-frameworks-to-simple-workflows/react.jpg&quot; alt=&quot;React, So Hot Right Now&quot;&gt;
  
 &lt;strong&gt;I’m going to use a framework!&lt;/strong&gt; &lt;em&gt;said to myself&lt;/em&gt;, but after reviewing the major players (React, Angular, Backbone), I came to the conclusion that such frameworks were overkill for what I needed. In fact, the project only required something to handle client-side routing (maybe) and some dynamic elements, so I started looking at more minimal frameworks.&lt;/p&gt;
 &lt;p&gt;The ones that were in my bookmarks included &lt;a href=&quot;http://lhorie.github.io/mithril/&quot;&gt;Mithril&lt;/a&gt;, &lt;a href=&quot;https://muut.com/riotjs/&quot;&gt;Riot&lt;/a&gt; and &lt;a href=&quot;https://github.com/staltz/cycle&quot;&gt;Cycle&lt;/a&gt; (because Rx), but then again, after tinkering half-evening with all of them, I learned something: &lt;strong&gt;minimal is not the same as simple&lt;/strong&gt;. All of them boast a minimalistic approach to MV-C/I/VM/whatever, but also, all of them had to make serious &lt;a href=&quot;https://medium.com/i-m-h-o/oversimplifying-things-is-not-an-advantage-89c560fb21c3&quot;&gt;trade-offs&lt;/a&gt; in order to stay on the micro/minimal league. I liked them all, but none of them fit the simplicity I needed for this kind of website.&lt;/p&gt;
-&lt;h2 id=&quot;simple-but-powerful-workflow&quot;&gt;Simple but Powerful Workflow&lt;/h2&gt;
+&lt;p&gt;##Simple but Powerful Workflow&lt;/p&gt;
 &lt;p&gt;Following my brief experience with frameworks, I decided that a framework wasn’t really needed, but instead a good &lt;strong&gt;&lt;em&gt;workflow environment&lt;/em&gt;&lt;/strong&gt; to make simple, static sites in a fast, consistent way, using modern tools. So I started &lt;strong&gt;making one&lt;/strong&gt;. As an initial point, I added &lt;strong&gt;Gulp&lt;/strong&gt; and &lt;strong&gt;Browserify&lt;/strong&gt;, also &lt;strong&gt;Sass&lt;/strong&gt; for CSS and &lt;strong&gt;Jade&lt;/strong&gt; for templates. Git was the obvious choice for version control.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/from-complex-frameworks-to-simple-workflows/tools.jpg&quot; alt=&quot;Tools, learn to use them&quot;&gt;&lt;/p&gt;
 &lt;p&gt;I also wanted a good starting point in terms of page structure, like HTML5 Boilerplate/Initializr, and some style consistency among browsers, so I added &lt;a href=&quot;http://necolas.github.io/normalize.css/&quot;&gt;Normalize.css&lt;/a&gt;, &lt;a href=&quot;https://github.com/aFarkas/html5shiv&quot;&gt;html5shiv&lt;/a&gt; and &lt;a href=&quot;http://html5doctor.com/html-5-reset-stylesheet/&quot;&gt;HTML5 doctor reset stylesheet&lt;/a&gt; (just in case a complex custom design was needed).&lt;/p&gt;
 &lt;p&gt;Regarding CSS frameworks, I’m getting used to &lt;strong&gt;Bourbon/Neat&lt;/strong&gt; as it’s less cluttered than Bootstrap, so I also included them, with the great benefit that the resulting CSS files only include the used CSS mix-ins, resulting in less space being wasted. If you go for Bootstrap, don’t forget to &lt;strong&gt;uncss&lt;/strong&gt; when you build.&lt;/p&gt;
-&lt;h2 id=&quot;integrating-the-tools&quot;&gt;Integrating the Tools&lt;/h2&gt;
+&lt;p&gt;##Integrating the Tools&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/from-complex-frameworks-to-simple-workflows/pipes.gif&quot; alt=&quot;Leaking everywhere&quot;&gt;&lt;/p&gt;
 &lt;p&gt;When you start adding features and complexity to a project, it’s hard to put everything together. Luckily, with the help of Git, npm, Gulp and Browserify, it’s much easier than it seems. Best of all, I found an excellent starting point for what I wanted to do. &lt;a href=&quot;https://github.com/greypants/gulp-starter&quot;&gt;Gulp Starter&lt;/a&gt; had many of the tools I wanted, but also many extras added as default, and some other things that were missing.&lt;/p&gt;
 &lt;p&gt;I went on and started modifying the project. Added something here and there, removed, changed, edited and tweaked, and, about an hour later, a working version of the &lt;strong&gt;project starter&lt;/strong&gt; was already working. I think it’s a very good starting point for any kind of frontend projects since it’s very easy to modify and customize for specific needs. Gulp tasks are modularized (from Gulp-starter) so you can add and remove tasks without much effort. The same applies to libraries, adding new ones is as easy as installing them via npm. You can see the project on the link below:&lt;/p&gt;
 &lt;p&gt;Get (fork) &lt;a href=&quot;https://github.com/crisberrios/static-starter&quot;&gt;Static-Starter&lt;/a&gt; at GitHub.&lt;/p&gt;
 &lt;p&gt;Another added benefit of running a static project &lt;em&gt;generator&lt;/em&gt; like this, is that you don’t even need a paid hosting for development (and even some production) purposes. You can run your sites directly from &lt;a href=&quot;http://rawgit.com/&quot;&gt;RawGit&lt;/a&gt; and even serve all the snapshots/versions simultaneously.&lt;/p&gt;
-&lt;h2 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;##Final thoughts&lt;/p&gt;
 &lt;p&gt;There’s still a lot to do with my little project, like including some default tests and better support for adding data to Jade templates, but overall it let me do a very smooth and steady progress with the static site I was going to do, and will also serve me as a base for many future projects. When developing, there’s nothing better than just opening the console, writing &lt;strong&gt;gulp&lt;/strong&gt; and let the &lt;a href=&quot;http://www.browsersync.io/&quot;&gt;BrowserSync&lt;/a&gt; fun begin!&lt;/p&gt;
 &lt;p&gt;I hope you liked the idea and find the project useful, even if only as a little reference for making your own starter, and if you think there’s a way to improve it, please contribute or let me know.&lt;/p&gt;
 &lt;p&gt;Let’s code!&lt;/p&gt;
@@ -190,21 +190,21 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
       <guid isPermaLink="true">http://crisberrios.github.io/articles/the-road-so-far/</guid>
       <author></author>
       <description>&lt;p&gt;In the last weeks, I’ve been asked a few times to document a bit more my journey into web development, so I’m writing this post as a general guide/track that I hope might prove useful, in special to those who are following &lt;a href=&quot;http://www.freecodecamp.com&quot;&gt;FreeCodeCamp&lt;/a&gt;‘s curriculum.&lt;/p&gt;
-&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+&lt;p&gt;##Background&lt;/p&gt;
 &lt;p&gt;Last year, while we were preparing to leave our country, I made the decision to switch careers, as it would be very difficult to find a job as an electronics engineer given the conditions on which we were going to live.&lt;/p&gt;
 &lt;p&gt;Also, I’ve always been a computers geek and had some experience with programming (mostly C, some C#) and a story with amateur web design (mostly Wordpress blogs), so I first came to the conclusion that C# and ASP.NET was the way to go.&lt;/p&gt;
 &lt;p&gt;Then, I started doing some reads on C#, signed-up for a Udemy course and jumped in to my new .NET career for about… 2 days, until a dev friend told me about this new thing called &lt;strong&gt;&lt;em&gt;Node.js&lt;/em&gt;&lt;/strong&gt;. 2 blog posts later and goodbye C#.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/good-bye.gif&quot; alt=&quot;Goodbye, C#&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;first-steps&quot;&gt;First steps&lt;/h1&gt;
+&lt;p&gt;#First steps#&lt;/p&gt;
 &lt;p&gt;Fast forward to Mexico and after doing some reserach, I stumbled upon with &lt;a href=&quot;http://www.reddit.com/r/learnjavascript/comments/2179b5/learn_javascript_properly_omnibus_post_for_the/&quot;&gt;Learn JavaScript Properly&lt;/a&gt;, which was my first &lt;em&gt;real&lt;/em&gt; approach to coding in JavaScript.&lt;/p&gt;
 &lt;p&gt;About 2 weeks later, I became bored as the program mostly focused on reading &lt;strong&gt;&lt;em&gt;Professional JavaScript for Web Developers&lt;/em&gt;&lt;/strong&gt; (a good book, by the way), and started a web marketing project (ClickBank) which didn’t go as planned but at least gives me some much needed passive income.&lt;/p&gt;
 &lt;p&gt;In the meantime, without any structure or clear goal, I started learning &lt;strong&gt;Node.js&lt;/strong&gt; and did many &lt;a href=&quot;http://www.codeschool.com&quot;&gt;CodeSchool&lt;/a&gt; courses. I also started doing some small projects with what I learned, including a real-time car GPS visualization using socket.io, a spanish multi-corpus scraper to help my wife in her doctorate and an article remixer for my marketing venture.&lt;/p&gt;
 &lt;p&gt;And the software &lt;strong&gt;did&lt;/strong&gt; work, but once I wanted to start adding more features, I realized the code was a &lt;strong&gt;&lt;em&gt;callback nightmare&lt;/em&gt;&lt;/strong&gt; and delicious &lt;strong&gt;&lt;em&gt;spaghetti&lt;/em&gt;&lt;/strong&gt;, so I needed to strengthen my basic skills. Also, I abandoned my marketing venture and decided (again) to become an &lt;strong&gt;excellent developer&lt;/strong&gt;, this time for real. Bring it on, JavaScript!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/bring-it-on.gif&quot; alt=&quot;Bring it On, JavaScript&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;enter-freecodecamp&quot;&gt;Enter FreeCodeCamp&lt;/h1&gt;
+&lt;p&gt;#Enter FreeCodeCamp#&lt;/p&gt;
 &lt;p&gt;In January, I came back to learning JavaScript (and HTML, and CSS), and after a second research, I found about FreeCodeCamp in a site with many &lt;a href=&quot;http://js.startrack.io/&quot;&gt;JavaScript Learning Paths&lt;/a&gt;. Since I’ve already been learning JS and also did CodeAcademy/CodeSchool courses, I rushed through most of the challenges, and in a few days I completed all the easy and medium &lt;a href=&quot;http://coderbyte.com/CodingArea/Challenges/&quot;&gt;Coderbyte&lt;/a&gt; challenges, which marked the end of FCC’s curriculum and made me eligible for nonprofit work.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/fast.gif&quot; alt=&quot;That escalated quickly&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;beyond-freecodecamp&quot;&gt;Beyond FreeCodeCamp&lt;/h1&gt;
+&lt;p&gt;#Beyond FreeCodeCamp#&lt;/p&gt;
 &lt;p&gt;Once I finished FCC’s curriculum, it was time for nonprofit work (which I’m currently doing), but the curriculum doesn’t get you very far in terms of depth, algorithms, frameworks and best practices. So it was time to start doing some serious training. Back to the site where I found FreeCodeCamp, and after some reads, I started with Eric Elliot’s path: a lot of books, readings and videos. From the list, that you can find on &lt;a href=&quot;https://medium.com/javascript-scene/learn-javascript-b631a4af11f2&quot;&gt;this link&lt;/a&gt;, I went through the following readings (in order):&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Eloquent JavaScript (good intro, sometimes too eloquent)&lt;/li&gt;
@@ -216,7 +216,7 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
 &lt;p&gt;In between, I also started building this blog. For that purpose, I learned some &lt;a href=&quot;http://sass-lang.com/&quot;&gt;Sass&lt;/a&gt; and &lt;a href=&quot;http://jade-lang.com/&quot;&gt;Jade&lt;/a&gt; with a dash of Markdown, and since I wanted to learn something else apart from Bootstrap, I gave &lt;a href=&quot;http://bourbon.io/&quot;&gt;Bourbon&lt;/a&gt; and Neat a try. So far I’m liking them a lot, since I don’t have to mess that much with classes like in Bootstrap.&lt;/p&gt;
 &lt;p&gt;Then, I started going through all the resources found in &lt;a href=&quot;https://gist.github.com/ericelliott/d576f72441fc1b27dace&quot;&gt;This Gist&lt;/a&gt;, also by Eric Elliot. I’ve already watched every video and read every article on the “required” sections, and I recommend that you also do it. That’s where I found about Functional Reactive Programming.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/frp-stream.jpg&quot; alt=&quot;Everything is a Stream&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;the-road-to-functional-greatness&quot;&gt;The Road to Functional Greatness&lt;/h1&gt;
+&lt;p&gt;#The Road to Functional Greatness#&lt;/p&gt;
 &lt;p&gt;After the Functional Reactive Programming readings and videos (Netflix presentation) I got really hyped with this paradigm. It’s not the ultimate solution for every problem, but certainly I see it applied to most current async applications. That lead me to watch &lt;strong&gt;“Hardcore functional programming”&lt;/strong&gt; from Frontend Masters, and from there I went to learn more about functors, monads and the &lt;a href=&quot;https://github.com/fantasyland/fantasy-land&quot;&gt;Fantasy Land&lt;/a&gt; spec. It’s the daily bread in languages like Haskell, but it’s very new in JavaScript, with many benefits associated.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/fantasy-logo.png&quot; alt=&quot;Fantasy Land&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Once finished with “Hardcore Functional Programming”, I went back to learning Reactive stuff. Most prominent libraries are the &lt;a href=&quot;http://reactivex.io/&quot;&gt;Reactive Extensions (Rx)&lt;/a&gt;, used by many big guns including Microsoft and Netflix, and &lt;a href=&quot;https://baconjs.github.io/&quot;&gt;Bacon.js&lt;/a&gt;, which is inspired by Rx. Before starting, I made a &lt;a href=&quot;http://codepen.io/crisberrios/pen/ogPWmJ?editors=001&quot;&gt;little example&lt;/a&gt; just because I couldn’t wait before I started using this new enlightened paradigm.&lt;/p&gt;
@@ -232,7 +232,7 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
 &lt;/ol&gt;
 &lt;p&gt;Don’t expect this to be an easy reading, but it will change the way you see the flow of data inside a program.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/the-road-so-far/rainman.gif&quot; alt=&quot;Rainman&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;what-s-next-&quot;&gt;What’s Next?&lt;/h1&gt;
+&lt;p&gt;#What’s Next?#&lt;/p&gt;
 &lt;p&gt;So, you’ve arrived at where I am now. Where are the frameworks? you might ask. To tell you the truth, I don’t really care that much. My reasoning is that if I become very good at JS, any framework will be easy to learn. In particular, the ones that are more modular like Backbone or Riot. Node is just a JS environment, FRP covers most of what you do in the backend, and Express is built to make things easy for the devs. Still, my focus is:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Finish learning Rx/Bacon and use it as much as I can in my future projects.&lt;/li&gt;
@@ -243,7 +243,7 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
 &lt;li&gt;Keep learning something new everyday.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Bonus: keep pairing and helping other campers. Helping others has helped me a lot with solidifying my basic skills. I’ve learned from my errors when trying to explain something, and I keep learning better ways to do the same routines. Also, I’m practicing my english (which is not my native language), so it’s a win/win.&lt;/p&gt;
-&lt;h1 id=&quot;reading-list-and-final-thoughts&quot;&gt;Reading List and Final Thoughts&lt;/h1&gt;
+&lt;p&gt;#Reading List and Final Thoughts#&lt;/p&gt;
 &lt;p&gt;For the next days/weeks, I have the following books/courses on my reading/watching list:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;You don’t know JS series&lt;/li&gt;
@@ -260,23 +260,23 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
     <item>
       <title>7 days with jQuery</title>
       <link>http://crisberrios.github.io/articles/jquery-week/</link>
-      <pubDate>Sat, 07 Mar 2015 19:00:00 -0500</pubDate>
+      <pubDate>Sat, 07 Mar 2015 18:00:00 -0600</pubDate>
       <guid isPermaLink="true">http://crisberrios.github.io/articles/jquery-week/</guid>
       <author></author>
       <description>&lt;p&gt;Last week, I came (again) to the realization that my online portfolio was null, zero, &lt;em&gt;void 0&lt;/em&gt;, nada, so I decided to challenge myself and commit one little project each day during 7 days using a versatile, widely used and easy to learn library that I’ve never explored before starting &lt;a href=&quot;http://www.freecodecamp.com&quot;&gt;FreeCodeCamp&lt;/a&gt;. That library is, of course, &lt;strong&gt;jQuery&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;getting-ideas&quot;&gt;Getting Ideas&lt;/h2&gt;
+&lt;p&gt;##Getting Ideas&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/jquery-week/jquery-logo.png&quot; alt=&quot;jQuery&quot;&gt;&lt;/p&gt;
 &lt;p&gt;For project ideas, I already had some ideas in mind, but I wanted to go a little off-the track from the major typical examples like a slider or a modal window. I also wanted them to be made “from scratch”, so no “make your own xxx with jQuery” YouTube or blog tutorials. The setup was simple. 1st: open CodePen 2nd: start to code.&lt;/p&gt;
-&lt;h2 id=&quot;strenghtening-the-basics&quot;&gt;Strenghtening the basics&lt;/h2&gt;
+&lt;p&gt;##Strenghtening the basics&lt;/p&gt;
 &lt;p&gt; In parallel, I’ve also been reading a lot, going through every article, video, book and link on this &lt;a href=&quot;https://gist.github.com/ericelliott/d576f72441fc1b27dace&quot;&gt;Gist&lt;/a&gt; by Eric Elliot. It really gives you a good path for learning JavaScript properly. I’m still missing many books and links reommended there, but I can recommend them 100%.&lt;/p&gt;
 &lt;p&gt;Furthermore, this week I learned about &lt;strong&gt;Reactive Functional Programming&lt;/strong&gt;, which is a totally new paradigm from my classic &lt;em&gt;C&lt;/em&gt; background, and from mostly all the JS I’ve learned up until now. It got me super excited and made me want to refactor everything using it, so one of the projects I made uses &lt;a href=&quot;https://baconjs.github.io/&quot;&gt;BaconJS&lt;/a&gt; as a proof of concept, and it also plays very nice with jQuery. Totally mindblown.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/articles/jquery-week/barney.gif&quot; alt=&quot;Mind Effin Blown&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;just-do-it-&quot;&gt;Just do it!&lt;/h2&gt;
+&lt;p&gt;##Just do it!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;So I went on and made 7 pens this week&lt;/strong&gt;. No frills, no struggle, that’s it. Just dedicated 1 hour or 2 each day and went on with my self-imposed challenge. Wrapping it up, I learned many new things about jQuery and the DOM (like requestAnimationFrame), I had lots of fun doing the projects, and beefed up my frontend portfolio for good measure. I hope you like the projects/pens, and if you are starting from 0 like me, gives you some motivation to start your own challenge.&lt;/p&gt;
 &lt;p&gt;Of course, here’s &lt;strong&gt;The Link&lt;/strong&gt; to &lt;a href=&quot;http://codepen.io/crisberrios/&quot;&gt;my Codepen&lt;/a&gt;. Enjoy!&lt;/p&gt;
 &lt;p&gt;UPDATE:&lt;/p&gt;
 &lt;p&gt;I’ve read about this girl who made 180 websites in 180 days. Quite a feat! and even some sites are very simple, she had the constance to never stop doing it. &lt;a href=&quot;http://jenniferdewalt.com/index.html&quot;&gt;Here’s the site&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;bonus-recommended-links&quot;&gt;Bonus recommended links&lt;/h1&gt;
+&lt;p&gt;#Bonus recommended links#&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gawmdhCNy-A&quot;&gt;Reactive programming video from Netflix&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://leanpub.com/javascript-allonge/read&quot;&gt;JavaScript Allongé&lt;/a&gt;&lt;/li&gt;
@@ -287,14 +287,14 @@ After finishing the &lt;em&gt;challenges&lt;/em&gt; (FreeCodeCamp’s curriculum
     <item>
       <title>Recap</title>
       <link>http://crisberrios.github.io/articles/recap/</link>
-      <pubDate>Tue, 10 Feb 2015 19:00:00 -0500</pubDate>
+      <pubDate>Tue, 10 Feb 2015 18:00:00 -0600</pubDate>
       <guid isPermaLink="true">http://crisberrios.github.io/articles/recap/</guid>
       <author></author>
       <description>&lt;p&gt;So here I am. Living in the outskirts of Mexico City while learning how to &lt;em&gt;properly&lt;/em&gt; code and become a full stack web developer with the help of &lt;a href=&quot;https://www.freecodecamp.org&quot;&gt;Free Code Camp&lt;/a&gt; online bootcamp. On this first post, I’ll tell you the story of why I decided to switch careers.&lt;/p&gt;
-&lt;h2 id=&quot;what-was-i-doing-before-this-&quot;&gt;What was I doing before this?&lt;/h2&gt;
+&lt;p&gt;##What was I doing before this?&lt;/p&gt;
 &lt;p&gt;Well, this isn’t my first coding experience, nor my first web-dev experience. I &lt;em&gt;used to be&lt;/em&gt; (since I’m switching careers) an electronics engineer, and I’ve done some nice and interesting projects, mostly related with &lt;strong&gt;M2M&lt;/strong&gt; and &lt;strong&gt;Fleet Management&lt;/strong&gt; services, coding firmware for embedded devices and making scripts for data terminals.&lt;/p&gt;
 &lt;p&gt;Also, I’ve participated in the design and implementation of a variety of Wordpress sites/blogs, static HTML sites and worked as SEO/SEM manager for small businesses as my hobby side job. But I never took the time to properly learn JavaScript, CSS, and HTML (HTML5 was a new thing for me). Mostly hacking some scripts here and there, copy-pasting some PHP to make a plug-in work and inline-css-ing to fix some details.&lt;/p&gt;
-&lt;h2 id=&quot;what-changed-&quot;&gt;What changed?&lt;/h2&gt;
+&lt;p&gt;##What changed?&lt;/p&gt;
 &lt;p&gt;Well, ever since I met my wife, we have been spending our savings not in a mortgage, or even a car. We have been &lt;strong&gt;travelling&lt;/strong&gt; (not as much as you think, but one of our dreams was visiting Japan), and somewhere along the road we decided we should get out of our country and be on the move, in search of new adventures and a better quality of life.&lt;/p&gt;
 &lt;p&gt;First step: finding a stable job in another country. Since my wife’s work is in the academic field, that meant her getting a PhD first or me finding a job in another country. And that leads us to…&lt;/p&gt;
 &lt;p&gt;Second step: her being accepted in a doctorate program here in Mexico (top choice in her field). As for me? Look at the next picture:&lt;/p&gt;
