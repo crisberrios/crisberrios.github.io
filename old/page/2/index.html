@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Coding From Afar
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="alternate" href="http://crisberrios.github.io/feed.xml" type="application/rss+xml" title="My journey into becoming a full-stack web developer">
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body>
+    <!--if lt IE 8
+    p.browserupgrade
+      | You are using an
+      strong outdated
+      |  browser. Please
+      a(href='http://browsehappy.com/') upgrade your browser
+      |  to improve your experience.
+    -->
+    <header role="banner" class="centered-navigation">
+      <div class="centered-navigation-wrapper"><a href="/" class="mobile-logo">
+          <div class="m-logo"><span class="myname">CB</span></div></a><a id="js-centered-navigation-mobile-menu" href="javascript:void(0)" class="centered-navigation-mobile-menu">MENU</a>
+        <nav role="navigation">
+          <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+            <li class="nav-link"><a href="http://registry.jsonresume.org/crisberrios">Resume</a></li>
+            <li class="nav-link logo"><a href="/" class="logo">
+                <div class="nav-logo"><span class="myname">CB</span></div></a></li>
+            <li class="nav-link"><a href="/portfolio.html">Portfolio</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="content">
+        <div class="content-wrap">
+          <div class="hero">
+            <div class="hero-inner">
+              <div class="hero-copy">
+                <h1>Coding from Afar</h1>
+                <p>Welcome to my code-related personal website. I'm Cristián, and along with my wife we decided to leave our country in search of new adventures.</p>
+                <p>This blog is about my journey into becoming a Full-Stack JavaScript web developer. Currently <strong>for hire</strong>.</p>
+              </div>
+            </div>
+          </div>
+          <section class="main">
+            <div class="scroll-on-page">
+              <aside id="scroll-on-page-top">
+                <h2>Latest entries</h2><a href="#scroll-link-0" class="scroll-on-page-link">From Complex Frameworks to Simple Workflows</a><a href="#scroll-link-1" class="scroll-on-page-link">The Road So Far</a><a href="#scroll-link-2" class="scroll-on-page-link">7 days with jQuery</a>
+                <div class="nav"><a href="/">« Newer</a><a href="/page/3/">Older »</a>
+                </div>
+              </aside>
+              <article>
+                <header>
+                  <h1 id="scroll-link-0"><a href="/articles/from-complex-frameworks-to-simple-workflows/">From Complex Frameworks to Simple Workflows</a></h1>
+                  <p class="date"><span>Published on <em>March 22, 2015</em></span></p>
+                </header>
+                <section><p>This week, I had the opportunity to work in a small personal project: a simple, static website for a family member (someone said portfolio?). I’ve done some sites like this in the past, but I wanted to apply some of my recently acquired WebDev-fu, and this proved to be quite harder than it&nbsp;seemed.</p>
+<p>##Bringing a Gun to a Knife&nbsp;Fight</p>
+<p><img src="/articles/from-complex-frameworks-to-simple-workflows/gunknife.gif" alt="Bringing a Gun to a Knife Fight"></p>
+<p>My natural reaction was trying to use the <strong>stack</strong> I’m learning, which is <strong><span class="caps">MEAN</span></strong> (minus the A), but since it’s was a static site, MongoDB wasn’t really a useful tool on this scenario, and my <em>client</em> already has a hosting account, so no E and N either. What does that leave? Focusing on the frontend as much as possible. and since it’s only a <em>relatively</em> small business website, no <span class="caps">MEAN</span> for me this&nbsp;time.</p>
+<p>##Framweworks and Going&nbsp;Minimal</p>
+<p><img src="/articles/from-complex-frameworks-to-simple-workflows/react.jpg" alt="React, So Hot Right Now">
+ 
+<strong>I’m going to use a framework!</strong> <em>said to myself</em>, but after reviewing the major players (React, Angular, Backbone), I came to the conclusion that such frameworks were overkill for what I needed. In fact, the project only required something to handle client-side routing (maybe) and some dynamic elements, so I started looking at more minimal&nbsp;frameworks.</p>
+<p>The ones that were in my bookmarks included <a href="http://lhorie.github.io/mithril/">Mithril</a>, <a href="https://muut.com/riotjs/">Riot</a> and <a href="https://github.com/staltz/cycle">Cycle</a> (because Rx), but then again, after tinkering half-evening with all of them, I learned something: <strong>minimal is not the same as simple</strong>. All of them boast a minimalistic approach to <span class="caps">MV</span>-C/I/VM/whatever, but also, all of them had to make serious <a href="https://medium.com/i-m-h-o/oversimplifying-things-is-not-an-advantage-89c560fb21c3">trade-offs</a> in order to stay on the micro/minimal league. I liked them all, but none of them fit the simplicity I needed for this kind of&nbsp;website.</p>
+<p>##Simple but Powerful&nbsp;Workflow</p>
+<p>Following my brief experience with frameworks, I decided that a framework wasn’t really needed, but instead a good <strong><em>workflow environment</em></strong> to make simple, static sites in a fast, consistent way, using modern tools. So I started <strong>making one</strong>. As an initial point, I added <strong>Gulp</strong> and <strong>Browserify</strong>, also <strong>Sass</strong> for <span class="caps">CSS</span> and <strong>Jade</strong> for templates. Git was the obvious choice for version&nbsp;control.</p>
+<p><img src="/articles/from-complex-frameworks-to-simple-workflows/tools.jpg" alt="Tools, learn to use them"></p>
+<p>I also wanted a good starting point in terms of page structure, like <span class="caps">HTML5</span> Boilerplate/Initializr, and some style consistency among browsers, so I added <a href="http://necolas.github.io/normalize.css/">Normalize.css</a>, <a href="https://github.com/aFarkas/html5shiv">html5shiv</a> and <a href="http://html5doctor.com/html-5-reset-stylesheet/"><span class="caps">HTML5</span> doctor reset stylesheet</a> (just in case a complex custom design was&nbsp;needed).</p>
+<p>Regarding <span class="caps">CSS</span> frameworks, I’m getting used to <strong>Bourbon/Neat</strong> as it’s less cluttered than Bootstrap, so I also included them, with the great benefit that the resulting <span class="caps">CSS</span> files only include the used CSS mix-ins, resulting in less space being wasted. If you go for Bootstrap, don’t forget to <strong>uncss</strong> when you&nbsp;build.</p>
+<p>##Integrating the&nbsp;Tools</p>
+<p><img src="/articles/from-complex-frameworks-to-simple-workflows/pipes.gif" alt="Leaking everywhere"></p>
+<p>When you start adding features and complexity to a project, it’s hard to put everything together. Luckily, with the help of Git, npm, Gulp and Browserify, it’s much easier than it seems. Best of all, I found an excellent starting point for what I wanted to do. <a href="https://github.com/greypants/gulp-starter">Gulp Starter</a> had many of the tools I wanted, but also many extras added as default, and some other things that were&nbsp;missing.</p>
+<p>I went on and started modifying the project. Added something here and there, removed, changed, edited and tweaked, and, about an hour later, a working version of the <strong>project starter</strong> was already working. I think it’s a very good starting point for any kind of frontend projects since it’s very easy to modify and customize for specific needs. Gulp tasks are modularized (from Gulp-starter) so you can add and remove tasks without much effort. The same applies to libraries, adding new ones is as easy as installing them via npm. You can see the project on the link&nbsp;below:</p>
+<p>Get (fork) <a href="https://github.com/crisberrios/static-starter">Static-Starter</a> at&nbsp;GitHub.</p>
+<p>Another added benefit of running a static project <em>generator</em> like this, is that you don’t even need a paid hosting for development (and even some production) purposes. You can run your sites directly from <a href="http://rawgit.com/">RawGit</a> and even serve all the snapshots/versions&nbsp;simultaneously.</p>
+<p>##Final&nbsp;thoughts</p>
+<p>There’s still a lot to do with my little project, like including some default tests and better support for adding data to Jade templates, but overall it let me do a very smooth and steady progress with the static site I was going to do, and will also serve me as a base for many future projects. When developing, there’s nothing better than just opening the console, writing <strong>gulp</strong> and let the <a href="http://www.browsersync.io/">BrowserSync</a> fun&nbsp;begin!</p>
+<p>I hope you liked the idea and find the project useful, even if only as a little reference for making your own starter, and if you think there’s a way to improve it, please contribute or let me&nbsp;know.</p>
+<p>Let’s&nbsp;code!</p>
+
+                </section>
+              </article>
+              <article>
+                <header>
+                  <h1 id="scroll-link-1"><a href="/articles/the-road-so-far/">The Road So Far</a></h1>
+                  <p class="date"><span>Published on <em>March 15, 2015</em></span></p>
+                </header>
+                <section><p>In the last weeks, I’ve been asked a few times to document a bit more my journey into web development, so I’m writing this post as a general guide/track that I hope might prove useful, in special to those who are following <a href="http://www.freecodecamp.com">FreeCodeCamp</a>‘s&nbsp;curriculum.</p>
+<p>##Background</p>
+<p>Last year, while we were preparing to leave our country, I made the decision to switch careers, as it would be very difficult to find a job as an electronics engineer given the conditions on which we were going to&nbsp;live.</p>
+<p>Also, I’ve always been a computers geek and had some experience with programming (mostly C, some C#) and a story with amateur web design (mostly Wordpress blogs), so I first came to the conclusion that C# and <span class="caps">ASP</span>.NET was the way to&nbsp;go.</p>
+<p>Then, I started doing some reads on C#, signed-up for a Udemy course and jumped in to my new .<span class="caps">NET</span> career for about… 2 days, until a dev friend told me about this new thing called <strong><em>Node.js</em></strong>. 2 blog posts later and goodbye&nbsp;C#.</p>
+<p><img src="/articles/the-road-so-far/good-bye.gif" alt="Goodbye, C#"></p>
+<p>#First&nbsp;steps#</p>
+<p>Fast forward to Mexico and after doing some reserach, I stumbled upon with <a href="http://www.reddit.com/r/learnjavascript/comments/2179b5/learn_javascript_properly_omnibus_post_for_the/">Learn JavaScript Properly</a>, which was my first <em>real</em> approach to coding in&nbsp;JavaScript.</p>
+<p>About 2 weeks later, I became bored as the program mostly focused on reading <strong><em>Professional JavaScript for Web Developers</em></strong> (a good book, by the way), and started a web marketing project (ClickBank) which didn’t go as planned but at least gives me some much needed passive&nbsp;income.</p>
+<p>In the meantime, without any structure or clear goal, I started learning <strong>Node.js</strong> and did many <a href="http://www.codeschool.com">CodeSchool</a> courses. I also started doing some small projects with what I learned, including a real-time car <span class="caps">GPS</span> visualization using socket.io, a spanish multi-corpus scraper to help my wife in her doctorate and an article remixer for my marketing&nbsp;venture.</p>
+<p>And the software <strong>did</strong> work, but once I wanted to start adding more features, I realized the code was a <strong><em>callback nightmare</em></strong> and delicious <strong><em>spaghetti</em></strong>, so I needed to strengthen my basic skills. Also, I abandoned my marketing venture and decided (again) to become an <strong>excellent developer</strong>, this time for real. Bring it on,&nbsp;JavaScript!</p>
+<p><img src="/articles/the-road-so-far/bring-it-on.gif" alt="Bring it On, JavaScript"></p>
+<p>#Enter&nbsp;FreeCodeCamp#</p>
+<p>In January, I came back to learning JavaScript (and <span class="caps">HTML</span>, and CSS), and after a second research, I found about FreeCodeCamp in a site with many <a href="http://js.startrack.io/">JavaScript Learning Paths</a>. Since I’ve already been learning <span class="caps">JS</span> and also did CodeAcademy/CodeSchool courses, I rushed through most of the challenges, and in a few days I completed all the easy and medium <a href="http://coderbyte.com/CodingArea/Challenges/">Coderbyte</a> challenges, which marked the end of <span class="caps">FCC</span>’s curriculum and made me eligible for nonprofit&nbsp;work.</p>
+<p><img src="/articles/the-road-so-far/fast.gif" alt="That escalated quickly"></p>
+<p>#Beyond&nbsp;FreeCodeCamp#</p>
+<p>Once I finished <span class="caps">FCC</span>’s curriculum, it was time for nonprofit work (which I’m currently doing), but the curriculum doesn’t get you very far in terms of depth, algorithms, frameworks and best practices. So it was time to start doing some serious training. Back to the site where I found FreeCodeCamp, and after some reads, I started with Eric Elliot’s path: a lot of books, readings and videos. From the list, that you can find on <a href="https://medium.com/javascript-scene/learn-javascript-b631a4af11f2">this link</a>, I went through the following readings (in&nbsp;order):</p>
+<ol>
+<li>Eloquent JavaScript (good intro, sometimes too&nbsp;eloquent)</li>
+<li>JavaScript: The Good Parts (300% recommended. Short and concise. A good alternative is “JavaScript Succintly” if you want to go the 100% free path, but try to get <span class="caps">JS</span>:TGP since it’s awesome. JS Succintly is also a good complementary read if you need to feel more confident after Eloquent&nbsp;JavaScript.)</li>
+<li>Programming JavaScript Applications (Very good&nbsp;too)</li>
+<li>The Two Pillars of JavaScript (short articles, somewhat opinionated but good&nbsp;reads)</li>
+</ol>
+<p>Also, derived from that list, I read “JavaScript Allongé” which is a good advanced intro to functional programming and higher order functions. After reading this I got a new perspective on JavaScript, and that summed to some coding examples by Danny Fritz (@dannyfritz) and Nathan (@terakilobyte) from <span class="caps">FCC</span>, made me develop a great interest for functional programming and Ramda, which I recommend instead of Lodash or&nbsp;Underscore.</p>
+<p>In between, I also started building this blog. For that purpose, I learned some <a href="http://sass-lang.com/">Sass</a> and <a href="http://jade-lang.com/">Jade</a> with a dash of Markdown, and since I wanted to learn something else apart from Bootstrap, I gave <a href="http://bourbon.io/">Bourbon</a> and Neat a try. So far I’m liking them a lot, since I don’t have to mess that much with classes like in&nbsp;Bootstrap.</p>
+<p>Then, I started going through all the resources found in <a href="https://gist.github.com/ericelliott/d576f72441fc1b27dace">This Gist</a>, also by Eric Elliot. I’ve already watched every video and read every article on the “required” sections, and I recommend that you also do it. That’s where I found about Functional Reactive&nbsp;Programming.</p>
+<p><img src="/articles/the-road-so-far/frp-stream.jpg" alt="Everything is a Stream"></p>
+<p>#The Road to Functional&nbsp;Greatness#</p>
+<p>After the Functional Reactive Programming readings and videos (Netflix presentation) I got really hyped with this paradigm. It’s not the ultimate solution for every problem, but certainly I see it applied to most current async applications. That lead me to watch <strong>“Hardcore functional programming”</strong> from Frontend Masters, and from there I went to learn more about functors, monads and the <a href="https://github.com/fantasyland/fantasy-land">Fantasy Land</a> spec. It’s the daily bread in languages like Haskell, but it’s very new in JavaScript, with many benefits&nbsp;associated.</p>
+<p><img src="/articles/the-road-so-far/fantasy-logo.png" alt="Fantasy Land"></p>
+<p>Once finished with “Hardcore Functional Programming”, I went back to learning Reactive stuff. Most prominent libraries are the <a href="http://reactivex.io/">Reactive Extensions (Rx)</a>, used by many big guns including Microsoft and Netflix, and <a href="https://baconjs.github.io/">Bacon.js</a>, which is inspired by Rx. Before starting, I made a <a href="http://codepen.io/crisberrios/pen/ogPWmJ?editors=001">little example</a> just because I couldn’t wait before I started using this new enlightened&nbsp;paradigm.</p>
+<p>There are lots of resources on Rx. Here’s an outline of what I’ve been&nbsp;reading/doing:</p>
+<ol>
+<li><a href="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754">The introduction to Reactive Programming you’ve been&nbsp;missing</a></li>
+<li><a href="https://github.com/kriskowal/gtor">A General Theory of&nbsp;Reactivity</a></li>
+<li><a href="https://xgrommx.github.io/rx-book/content/summary.html">Rx&nbsp;Book</a></li>
+<li><a href="http://reactive-extensions.github.io/learnrx/">Learn Rx</a> (Also, a great resource for understanding the basic functional methods like map, reduce and&nbsp;filter)</li>
+<li><a href="http://blog.cognitect.com/blog/2014/8/6/transducers-are-coming">Transducers are&nbsp;coming</a></li>
+<li><a href="http://jlongster.com/Transducers.js--A-JavaScript-Library-for-Transformation-of-Data">Transducers.js: A JavaScript Library for Transformation of&nbsp;Data</a></li>
+<li><a href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html">Functors, Applicatives, And Monads In&nbsp;Pictures</a></li>
+</ol>
+<p>Don’t expect this to be an easy reading, but it will change the way you see the flow of data inside a&nbsp;program.</p>
+<p><img src="/articles/the-road-so-far/rainman.gif" alt="Rainman"></p>
+<p>#What’s&nbsp;Next?#</p>
+<p>So, you’ve arrived at where I am now. Where are the frameworks? you might ask. To tell you the truth, I don’t really care that much. My reasoning is that if I become very good at <span class="caps">JS</span>, any framework will be easy to learn. In particular, the ones that are more modular like Backbone or Riot. Node is just a JS environment, FRP covers most of what you do in the backend, and Express is built to make things easy for the devs. Still, my focus&nbsp;is:</p>
+<ol>
+<li>Finish learning Rx/Bacon and use it as much as I can in my future&nbsp;projects.</li>
+<li>Keep getting better at functional programming. It’s easy to ready, easy to extend, easy to reuse the code made this way and easy to&nbsp;test.</li>
+<li>Learn some sought-after skills, since a “I don’t know anything about Angular, but I’m a quick learner” won’t do in most&nbsp;cases.</li>
+<li>Build a&nbsp;portfolio</li>
+<li>Prepare for&nbsp;interviews</li>
+<li>Keep learning something new&nbsp;everyday.</li>
+</ol>
+<p>Bonus: keep pairing and helping other campers. Helping others has helped me a lot with solidifying my basic skills. I’ve learned from my errors when trying to explain something, and I keep learning better ways to do the same routines. Also, I’m practicing my english (which is not my native language), so it’s a&nbsp;win/win.</p>
+<p>#Reading List and Final&nbsp;Thoughts#</p>
+<p>For the next days/weeks, I have the following books/courses on my reading/watching&nbsp;list:</p>
+<ol>
+<li>You don’t know <span class="caps">JS</span>&nbsp;series</li>
+<li>Cracking the Code&nbsp;Interview</li>
+<li>Elements of Programming&nbsp;Interviews</li>
+<li>Programming Interviews Exposed (not so sure about this&nbsp;one)</li>
+<li>Mostly everything on <a href="https://plus.google.com/+AddyOsmani/posts/H3onog42Msj">this page</a> by Addy&nbsp;Osmani</li>
+</ol>
+<p>And this is the end for now. I still have a long way to go, but my goal is to <strong>land a good job</strong>, in a <strong>good company</strong>, in a <strong>good country</strong>, and do <strong>great things</strong> doing the <strong>thing I love</strong>.</p>
+<p>So I have to <strong><em>become a better coder</em></strong>.</p>
+<p><img src="/articles/the-road-so-far/challenge.jpg" alt="Challenge yourself"></p>
+
+                </section>
+              </article>
+              <article>
+                <header>
+                  <h1 id="scroll-link-2"><a href="/articles/jquery-week/">7 days with jQuery</a></h1>
+                  <p class="date"><span>Published on <em>March 08, 2015</em></span></p>
+                </header>
+                <section><p>Last week, I came (again) to the realization that my online portfolio was null, zero, <em>void 0</em>, nada, so I decided to challenge myself and commit one little project each day during 7 days using a versatile, widely used and easy to learn library that I’ve never explored before starting <a href="http://www.freecodecamp.com">FreeCodeCamp</a>. That library is, of course, <strong>jQuery</strong>.</p>
+<p>##Getting&nbsp;Ideas</p>
+<p><img src="/articles/jquery-week/jquery-logo.png" alt="jQuery"></p>
+<p>For project ideas, I already had some ideas in mind, but I wanted to go a little off-the track from the major typical examples like a slider or a modal window. I also wanted them to be made “from scratch”, so no “make your own xxx with jQuery” YouTube or blog tutorials. The setup was simple. 1<span class="ord">st</span>: open CodePen 2<span class="ord">nd</span>: start to&nbsp;code.</p>
+<p>##Strenghtening the&nbsp;basics</p>
+<p> In parallel, I’ve also been reading a lot, going through every article, video, book and link on this <a href="https://gist.github.com/ericelliott/d576f72441fc1b27dace">Gist</a> by Eric Elliot. It really gives you a good path for learning JavaScript properly. I’m still missing many books and links reommended there, but I can recommend them&nbsp;100%.</p>
+<p>Furthermore, this week I learned about <strong>Reactive Functional Programming</strong>, which is a totally new paradigm from my classic <em>C</em> background, and from mostly all the <span class="caps">JS</span> I’ve learned up until now. It got me super excited and made me want to refactor everything using it, so one of the projects I made uses <a href="https://baconjs.github.io/">BaconJS</a> as a proof of concept, and it also plays very nice with jQuery. Totally&nbsp;mindblown.</p>
+<p><img src="/articles/jquery-week/barney.gif" alt="Mind Effin Blown"></p>
+<p>##Just do&nbsp;it!</p>
+<p><strong>So I went on and made 7 pens this week</strong>. No frills, no struggle, that’s it. Just dedicated 1 hour or 2 each day and went on with my self-imposed challenge. Wrapping it up, I learned many new things about jQuery and the <span class="caps">DOM</span> (like requestAnimationFrame), I had lots of fun doing the projects, and beefed up my frontend portfolio for good measure. I hope you like the projects/pens, and if you are starting from 0 like me, gives you some motivation to start your own&nbsp;challenge.</p>
+<p>Of course, here’s <strong>The Link</strong> to <a href="http://codepen.io/crisberrios/">my Codepen</a>.&nbsp;Enjoy!</p>
+<p><span class="caps">UPDATE</span>:</p>
+<p>I’ve read about this girl who made 180 websites in 180 days. Quite a feat! and even some sites are very simple, she had the constance to never stop doing it. <a href="http://jenniferdewalt.com/index.html">Here’s the&nbsp;site</a></p>
+<p>#Bonus recommended&nbsp;links#</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=gawmdhCNy-A">Reactive programming video from&nbsp;Netflix</a></li>
+<li><a href="https://leanpub.com/javascript-allonge/read">JavaScript&nbsp;Allongé</a></li>
+<li><a href="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754">Introduction to Reactive&nbsp;Programming</a></li>
+</ul>
+
+                </section>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo" class="footer">
+      <div class="footer-logo"><img src="/img/profile.jpg" alt="Cristián Berríos"></div>
+      <div class="footer-links">
+        <ul>
+          <li>
+            <h3>Content</h3>
+          </li>
+          <li><a href="/archive.html">Archives</a></li>
+          <li><a href="javascript:void(0)">Portfolio</a></li>
+          <li><a href="http://registry.jsonresume.org/crisberrios">Resume</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Follow Me</h3>
+          </li>
+          <li><a href="https://github.com/crisberrios">Git</a></li>
+          <li><a href="http://codepen.io/crisberrios/">Codepen</a></li>
+          <li><a href="http://mx.linkedin.com/in/cberrios">LinkedIn</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3 id="contact">Contact</h3>
+          </li>
+          <li><a href="mailto:cristian.berrios@outlook.cl">cristian.berrios (at) outlook.cl</a></li>
+          <li><a href="#" class="toggle-form">Send me a message »</a></li>
+          <li>
+            <form method="POST" action="//formspree.io/cristian.berrios@outlook.cl" class="footer-form">
+              <input type="email" placeholder="e-mail" required class="email-footer">
+              <input type="text" size="140" name="message" placeholder="message" required class="text-footer">
+              <input type="text" name="_gotcha" style="display:none">
+              <input type="submit" class="submit-footer">
+            </form>
+          </li>
+        </ul>
+      </div>
+      <hr>
+      <p>Feel free to copy anything from this site which doesn't belong to someone else.</p>
+      <p>Built with <a href="http://wintersmith.io">Wintersmith, </a><a href="http://bourbon.io">Bourbon, </a><a href="http://neat.bourbon.io">Neat, </a><a href="http://bitters.bourbon.io">Bitters </a>and<a href="http://refills.bourbon.io"> Refills.</a></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
